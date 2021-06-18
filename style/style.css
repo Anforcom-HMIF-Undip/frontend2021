@@ -1,0 +1,176 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    font-size: 18px;
+}
+
+#sponsor-medpar {
+    background-color: #02071B;
+    height: 700px;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.sponsor-title {
+    padding-left: 30px;
+}
+
+.sponsor {
+    color: #fff;
+}
+
+.logo-group{
+    width: 90%;
+}
+
+.logo-sponsor-1 {
+    position: relative;
+    top: 9px;
+    height: 70%;
+}
+
+.logo-sponsor-2 {
+    position: relative;
+    height: 100%;
+}
+
+.logo-sponsor-3 {
+    position: relative;
+    top: 2px;
+    height: 70%;
+}
+
+.logo-sponsor-4 {
+    position: relative;
+    top: 6px;
+    height: 70%;
+}
+
+.medpar {
+    color: #fff;
+}
+
+.medpar-title{
+    padding-left: 10px;
+}
+
+.logo-medpar-1 {
+    position: relative;
+    top: 10px;
+    height: 60%;
+}
+
+.logo {
+    display: inline-block;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    width: 180px;
+    height: 80px;
+    margin: 10px;
+}
+
+.medpar-logo {
+    display: inline-block;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    width: 180px;
+    height: 80px;
+    margin: 10px;
+}
+
+.support{
+    color: #fff;
+    padding-top: 40px;
+}
+
+.support-title{
+    padding-left: 40px;
+   
+}
+
+.kosong{
+    display: none;
+}
+
+
+@media(max-width: 600px) {
+    #sponsor-medpar{
+        height: 700px;
+        padding-top: 34px;
+        padding-left: 12px;
+    }
+
+    .kosong{
+        display: none;
+    }
+
+    .logo{
+        width: 40%;
+        height: 70px;
+    }
+
+    .medpar-logo{
+        width: 140px;
+        height: 70px;
+        position: relative;
+        left: 95px;
+    }
+
+    .logo-group{
+        position: relative;
+        right: 7%;
+        width: 100%;
+    }
+
+    .medpar{
+        padding-top: 20px;
+    }
+
+    .medpar-group{
+        position: relative;
+        left: 14%;
+    }
+
+    .sponsor-title{
+        position: relative;
+        left: 24%;
+    }
+
+    .medpar-title{
+        position: relative;
+        left: 109px;
+    }
+
+    .support{
+        color: #fff;
+        padding-top: 90px;
+        text-align: center;
+    }
+    
+    .support-title{
+        position: relative;
+        right: 5%;
+    }
+    .support-logo{
+        width: 100px;
+        padding-left: 90px;
+        padding-right: 20px;
+    }
+
+}
