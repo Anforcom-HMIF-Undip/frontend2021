@@ -1,0 +1,84 @@
+#teaser{
+    text-align: center;
+    background-color: #a6d6d6;
+    margin-bottom: 40px;
+    padding-bottom: 120px;
+}
+
+.teaser-title{
+    padding: 60px 60px;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#sponsor{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.sponsor-title{
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.google{
+    width: 100%;
+    width: 100%;
+    padding-right: 40px;
+}
+
+.facebook{
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.tesla{
+    width: 50%;
+}
+
+.gojek{
+    width: 80%;
+}
+
+@media(min-width: 1080px){
+    h3{
+        font-size: 2.75rem;
+    }
+    #sponsor{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .facebook{
+        padding-top: 40px;
+        padding-left: 25px;
+    }
+    #medpar{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .bloomberg{
+        padding-top: 55px;
+    }
+}
+
+#medpar{
+    padding-top: 40px;
+}
+
+.bloomberg{
+    padding-top: 80px;
+}
