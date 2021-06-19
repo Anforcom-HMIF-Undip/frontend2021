@@ -22,10 +22,15 @@ let cardTimeline = document.querySelector(".timelineBusiness");
 cardTimeline.className += " d-flex justify-content-center justify-content-xl-start align-items-center flex-column flex-lg-row gap-3 flex-wrap"
 
 let html = ``;
+let count = 1;
 for (const property in timeline) {
     if (property == "first"){
         html += 
-        `<div class="card-timeline active px-3 px-lg-4 py-3">
+        `<div 
+            data-aos="fade-left"
+            data-aos-once="true"
+            data-aos-delay=${100*count} 
+            class="card-timeline active px-3 px-lg-4 py-3">
             <div class="date mb-4">
                 <h3 class="day m-0">${timeline[property].day}</h3>
                 <h6 class="monthYear">${timeline[property].monthYear}</h6>
@@ -35,7 +40,11 @@ for (const property in timeline) {
     }
     else{
         html += 
-        `<div class="card-timeline px-3 px-lg-4 py-3">
+        `<div
+            data-aos="fade-left"
+            data-aos-once="true"
+            data-aos-delay=${100*count} 
+            class="card-timeline px-3 px-lg-4 py-3">
             <div class="date mb-4">
                 <h3 class="day m-0">${timeline[property].day}</h3>
                 <h6 class="monthYear">${timeline[property].monthYear}</h6>
@@ -43,6 +52,7 @@ for (const property in timeline) {
             <p class="description">${timeline[property].description}</p>
         </div>`;
     }
+    count++;
 }
 
 cardTimeline.innerHTML += html;
