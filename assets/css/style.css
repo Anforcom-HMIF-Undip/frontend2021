@@ -5,7 +5,7 @@
 /* font mohol */
 @font-face {
   font-family: 'moholregular';
-  src: url(./assets/fonts/mohol-regular-webfont.woff) format('woff2');
+  src: url(../fonts/mohol-regular-webfont.woff) format('woff2');
   font-weight: normal;
   font-style: normal;
 
@@ -62,6 +62,8 @@ ul.navbar-nav {
   color: #fff;
 }
 
+
+
 .hero .description{
   width:85%;
 }
@@ -77,14 +79,25 @@ ul.navbar-nav {
   width:170px;
   height: 35px;
 }
+.hero .info .bg-signup:hover{
+  background-color: #105daa;
+  transition: .2 ease-in;
+}
 .hero .info .border-guidebook{
   border:2px solid #105395;
   width:180px;
   height: 35px;
 }
+.hero .info .border-guidebook:hover{  
+  background:rgba(255,255,255,.1);
+  border:2px solid #3c7ab8;
+  transition: .2 ease;
+}
+
+
 
 .juara{
-  background: url(./assets/img/juara_bg.png);
+  background-image: url(../img/juara_bg.png);
 }
 
 .juara .card-juara{
@@ -102,6 +115,11 @@ ul.navbar-nav {
   margin-top:1.2rem;
 }
 
+.juara .card-juara:hover{
+  background: rgba( 255, 255, 255, 0.40 );
+  transition:.3s ease-in-out;
+}
+
 
 .timeline .card-timeline{
   width: 260px;
@@ -112,6 +130,17 @@ ul.navbar-nav {
   border-radius: 10px;
   border: 1px solid #707070;
 }
+
+.card-timeline.active{
+  background: #105395;
+}
+
+.card-timeline:hover{
+  background: rgba(16,83,169,0.6);
+  transition: .2s ease;
+}
+
+
 
 
 .footer {
@@ -128,6 +157,10 @@ ul.navbar-nav {
   text-decoration: none;
   color: #fff;
 }
+.footer ul li a:hover {
+  color: rgb(231, 184, 184);
+  transition: 0.5 ease-in;
+}
 .contact{
   margin:24px 0;
 }
@@ -137,10 +170,10 @@ ul.navbar-nav {
   margin-left:16px;
 }
 
+
+
+
 @media screen and (max-width:576px){
-  *{
-    font-size:14px;
-  }
   .hero,.juara,.timeline{
     margin-bottom: 4rem;
   }
@@ -163,10 +196,13 @@ ul.navbar-nav {
     margin-top:0;
   }
   .juara .description{
-    font-size:13px;
+    font-size:12px;
   }
   .timeline .card-timeline{
     width: 177px;
     height: 94;
+  } 
+  .timeline .description{
+    font-size:12px;
   }
 }
