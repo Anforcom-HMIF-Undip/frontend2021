@@ -79,7 +79,6 @@ img {
 ----------------------- */
 .sidebar {
   display: flex !important;
-  height: 1080px;
 }
 
 .sidebar-wrapper {
@@ -104,7 +103,7 @@ img {
 .content-wrapper {
   background: #f2f5fa;
   width: 1920px;
-  height: 1080px;
+  height: 1280px;
 }
 
 .copyright {
@@ -156,4 +155,124 @@ margin-bottom: 10px;
 .daftar:hover {
   text-decoration: none;
   color: #fff;
+}
+
+/* --------------------
+      timeline css
+----------------------- */
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e3e6f0;
+  border-radius: 0.35rem;
+}
+
+.blue {
+  border-left: 0.25rem solid #4e73df !important;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  height: 100% !important;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.no-mx {
+  margin-right: 0;
+  margin-left: 0;
+  align-items: center !important;
+}
+
+.green {
+  border-left: 0.25rem solid #1cc88a !important;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  height: 100% !important;
+}
+
+.tosca {
+  border-left: 0.25rem solid #36b9cc !important;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  height: 100% !important;
+}
+
+/* --------------------------------------
+      timeline - status pendaftaran css
+----------------------------------------- */
+.jenis .paket-1 {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;}
+.biru { background-color: #4e73df;}
+.toska { background-color: #36b9cc;}
+.jenis .paket-1 .judul {
+  font-size: 22px;
+  color: #fff;
+  padding: 25px; }
+.jenis .jenis-body {
+  border: 1px solid #ddd;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+.jenis .jenis-body .jenis-text {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 25px; }
+.jenis .jenis-body .jenis-list {
+  padding-top: 30px; }
+  .jenis .jenis-body .jenis-list p {
+    line-height: 36px;
+    color: #32333c;
+    font-size: 16px; }
+
+.single-pricing {
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  padding: 24px 20px 50px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px;
+  background-color: #fff; }
+.single-pricing .pricing-list {
+  margin-top: 5px; }
+.single-pricing .pricing-list ul li {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #121212;
+  margin-top: 16px; }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .single-pricing .pricing-list ul li {
+      font-size: 14px;
+      margin-top: 12px; } }
+  @media (max-width: 767px) {
+    .single-pricing .pricing-list ul li {
+      font-size: 14px;
+      margin-top: 12px; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single-pricing .pricing-list ul li {
+      font-size: 16px;
+      margin-top: 16px; } }
+      .single-pricing .pricing-list ul li i {
+        color: #8487F4;
+        margin-right: 8px; }
+        .single-pricing .pricing-list ul li i .right {
+          color: #0BA2ED;}
+
+.single-pricing.pro .pricing-header .sub-title::before {
+  right: auto;
+  left: 0px;
+  background-color: #8487F4; }
+.single-pricing.enterprise .pricing-header .sub-title::before {
+  right: 0px;
+  left: auto;
+  background-color: #0BA2ED; }
+.status li {
+  background-color: #eaeaea;
+  border-radius: 5px;
 }
