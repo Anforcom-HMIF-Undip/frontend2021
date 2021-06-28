@@ -1,0 +1,115 @@
+/* Slider */
+.testimonial-area .slick-slider {
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.testimonial-area .slick-list {
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+
+.testimonial-area .slick-list:focus {
+    outline: none;
+}
+
+.testimonial-area .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.testimonial-area .slick-slider .slick-track,
+.testimonial-area .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.testimonial-area .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonial-area .slick-track:before,
+.testimonial-area .slick-track:after {
+    display: table;
+
+    content: '';
+}
+
+.testimonial-area .slick-track:after {
+    clear: both;
+}
+
+.testimonial-area .slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.testimonial-area .slick-slide {
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir='rtl'] .testimonial-area .slick-slide {
+    float: right;
+}
+
+.testimonial-area .slick-slide img {
+    display: block;
+}
+
+.testimonial-area .slick-slide.slick-loading img {
+    display: none;
+}
+
+.testimonial-area .slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.testimonial-area .slick-initialized .slick-slide {
+    display: block;
+}
+
+.testimonial-area .slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.testimonial-area .slick-vertical .slick-slide {
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+
+.testimonial-area .slick-arrow.slick-hidden {
+    display: none;
+}
