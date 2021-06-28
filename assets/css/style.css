@@ -5,6 +5,7 @@
 /* font mohol */
 @font-face {
   font-family: 'moholregular';
+  font-display:swap;
   src: url(../fonts/mohol-regular-webfont.woff) format('woff2');
   font-weight: normal;
   font-style: normal;
@@ -30,13 +31,24 @@ body {
   color:#fff;
 }
 
+
 .hero,.juara,.timeline{
   margin-bottom: 8rem;
 }
 
+
 .navbar {
   background-color: rgb(0, 0, 0);
   box-shadow: 0 3px 16px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-dark .navbar-toggler-icon{
+  background-image: url(/assets/img/hamburgerMenu.png);
+}
+
+.navbar-dark .navbar-toggler{
+  color:none !important;
+  border:none;
 }
 
 .navbar-dark a {
@@ -115,12 +127,6 @@ ul.navbar-nav {
   margin-top:1.2rem;
 }
 
-.juara .card-juara:hover{
-  background: rgba( 255, 255, 255, 0.40 );
-  transition:.3s ease-in-out;
-}
-
-
 .timeline .card-timeline{
   width: 260px;
   height: 138px;
@@ -134,13 +140,6 @@ ul.navbar-nav {
 .card-timeline.active{
   background: #105395;
 }
-
-.card-timeline:hover{
-  background: rgba(16,83,169,0.6);
-  transition: .2s ease;
-}
-
-
 
 
 .footer {
@@ -169,8 +168,6 @@ ul.navbar-nav {
   font-size: 26px;
   margin-left:16px;
 }
-
-
 
 
 @media screen and (max-width:576px){
@@ -212,3 +209,4 @@ ul.navbar-nav {
     font-size:28px;
   }
 }
+
