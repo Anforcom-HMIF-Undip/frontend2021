@@ -43,7 +43,7 @@ body {
 }
 
 .navbar-dark .navbar-toggler-icon{
-  background-image: url(/assets/img/hamburgerMenu.png);
+  background-image: url(../img/hamburgerMenu.png);
 }
 
 .navbar-dark .navbar-toggler{
