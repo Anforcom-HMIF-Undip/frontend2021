@@ -34,11 +34,11 @@ function showTimeline(timeline){
             `<div 
                 data-aos="fade-left"
                 data-aos-once="true"
-                data-aos-delay=${100*count} 
+                data-aos-delay=${50*count} 
                 class="card-timeline active px-3 px-lg-4 py-3">
                 <div class="date mb-4">
                     <h3 class="day m-0">${timeline[i].day}</h3>
-                    <h6 class="monthYear">${timeline[i].monthYear}</h6>
+                    <h5 class="monthYear">${timeline[i].monthYear}</h5>
                 </div>
                 <p class="description">${timeline[i].description}</p>
             </div>`;    
@@ -48,11 +48,11 @@ function showTimeline(timeline){
             `<div
                 data-aos="fade-left"
                 data-aos-once="true"
-                data-aos-delay=${100*count} 
+                data-aos-delay=${50*count} 
                 class="card-timeline px-3 px-lg-4 py-3">
                 <div class="date mb-4">
                     <h3 class="day m-0">${timeline[i].day}</h3>
-                    <h6 class="monthYear">${timeline[i].monthYear}</h6>
+                    <h5 class="monthYear">${timeline[i].monthYear}</h5>
                 </div>
                 <p class="description">${timeline[i].description}</p>
             </div>`;
