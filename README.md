@@ -1,7 +1,7 @@
 # frontend2021
 Frontend repository for Anforcom 2021 
 
-### catatan yang belum fixed
+# catatan yang belum fixed
 ##### yang mau nambahin silahkan :)
 1. scroll bar custom jason blom untuk page lainnya juga
 2. hamburger navbar alvin
