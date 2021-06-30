@@ -1,0 +1,196 @@
+/* Slider */
+.testimonial-area .slick-loading .slick-list {
+    background: #fff url('./ajax-loader.gif') center center no-repeat;
+}
+
+/* Icons */
+@font-face {
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('./fonts/slick.eot');
+    src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+}
+
+/* Arrows */
+.testimonial-area .slick-prev,
+.testimonial-area .slick-next {
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.testimonial-area .slick-prev:hover,
+.testimonial-area .slick-prev:focus,
+.testimonial-area .slick-next:hover,
+.testimonial-area .slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+
+.testimonial-area .slick-prev:hover:before,
+.testimonial-area .slick-prev:focus:before,
+.testimonial-area .slick-next:hover:before,
+.testimonial-area .slick-next:focus:before {
+    opacity: 1;
+}
+
+.testimonial-area .slick-prev.slick-disabled:before,
+.testimonial-area .slick-next.slick-disabled:before {
+    opacity: .25;
+}
+
+.testimonial-area .slick-prev:before,
+.testimonial-area .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.testimonial-area .slick-prev {
+    left: -25px;
+}
+
+[dir='rtl'] .testimonial-area .slick-prev {
+    right: -25px;
+    left: auto;
+}
+
+.testimonial-area .slick-prev:before {
+    content: '←';
+}
+
+[dir='rtl'] .testimonial-area .slick-prev:before {
+    content: '→';
+}
+
+.testimonial-area .slick-next {
+    right: -25px;
+}
+
+[dir='rtl'] .testimonial-area .slick-next {
+    right: auto;
+    left: -25px;
+}
+
+.testimonial-area .slick-next:before {
+    content: '→';
+}
+
+[dir='rtl'] .testimonial-area .slick-next:before {
+    content: '←';
+}
+
+/* Dots */
+.testimonial-area .slick-dotted.slick-slider {
+    margin-bottom: 30px;
+}
+
+.testimonial-area .slick-dots {
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+.testimonial-area .slick-dots li {
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+
+.testimonial-area .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.testimonial-area .slick-dots li button:hover,
+.testimonial-area .slick-dots li button:focus {
+    outline: none;
+}
+
+.testimonial-area .slick-dots li button:hover:before,
+.testimonial-area .slick-dots li button:focus:before {
+    opacity: 1;
+}
+
+.testimonial-area .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.testimonial-area .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
+}
