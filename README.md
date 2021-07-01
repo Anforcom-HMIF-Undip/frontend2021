@@ -16,9 +16,12 @@ Frontend repository for Anforcom 2021
 11. Forgot password login (keenan + naufal)
 
 ===================================================
-# (( tanya dekdok ))
+# (( tanya Acara/Materi ))
 
 11. tentang anforcom ( tanya dekdok )
 12. FAQ ( 5 pertanyaan 5 jawaban) ( tanya dekdok )
-13. Apa kata mereka ( kata² singkat penjelas judul, kurang kak rafly, ka Risang, kalo mo nambah gpp) ( tanya dekdok )
+13. Apa kata mereka ( kata² singkat penjelas judul, kurang kak rafly, ka Risang(icang gamau lagi cari pengganti), kalo mo nambah gpp) ( tanya dekdok )
 
+# Tambahan dari dekdok
+14. Font heading banyak yang bekan mohol
+15. Easing homepage kelamaan
