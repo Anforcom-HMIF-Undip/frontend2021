@@ -12,7 +12,7 @@ Frontend repository for Anforcom 2021
 7. Ngelengkapin kata2 Home Page - Competitions (on progress  - jason)
 8. Link ke dashboard (keenan + naufal)
 9. Timeline di dashboard (alvin)
-10. Terms and condition signup (dihapus)
+- [x] Terms and condition signup (dihapus)
 11. Forgot password login (keenan + naufal)
 
 ===================================================
