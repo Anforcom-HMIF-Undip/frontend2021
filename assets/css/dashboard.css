@@ -2,7 +2,16 @@
       Default css
 ----------------------- */
 
+/* Work Sans */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+/* font mohol */
+@font-face {
+  font-family: 'moholregular';
+  src: url(../fonts/mohol-regular-webfont.woff) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 body {
   font-family: 'Work Sans', -apple-system, sans-serif;
@@ -39,7 +48,7 @@ img {
     h4,
     h5,
     h6 {
-      font-family: 'Montserrat', sans-serif;
+      font-family: "moholregular", sans-serif;
       font-weight: 600;
       color: #121212;
       margin: 0px; }
@@ -350,7 +359,7 @@ margin-bottom: 10px;
 	color: #565a5c;
     font-size: 20px;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-family: "moholregular", sans-serif;
     text-transform: capitalize;
     margin-bottom: 17px;
 }
