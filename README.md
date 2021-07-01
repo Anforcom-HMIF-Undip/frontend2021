@@ -11,11 +11,11 @@ Frontend repository for Anforcom 2021
 - :white_check_mark: Medpart di page competitions (on progress  - jason) 
 - :white_check_mark: Ngelengkapin kata2 Home Page - Competitions (on progress  - jason)
 8. Link ke dashboard (keenan + naufal)
-9. Timeline di dashboard (on progress - alvin)
+- :white_check_mark: Timeline di dashboard (alvin)
 - :white_check_mark: Terms and condition signup (dihapus)
 11. Forgot password login (keenan + naufal)
 12. Sambungin register-login-logout dengan backend (udah bisa tinggal dirapikan kodingannya, keenan + naufal) 
-13. Responsive dashboard (on progress - alvin)
+- :white_check_mark: Responsive dashboard (alvin)
 
 ===================================================
 # (( tanya Acara/Materi ))
