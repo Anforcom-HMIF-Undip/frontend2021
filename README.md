@@ -11,10 +11,11 @@ Frontend repository for Anforcom 2021
 6. Medpart di page competitions (on progress  - jason)
 7. Ngelengkapin kata2 Home Page - Competitions (on progress  - jason)
 8. Link ke dashboard (keenan + naufal)
-9. Timeline di dashboard (alvin)
+9. Timeline di dashboard (on progress - alvin)
 - [x] Terms and condition signup (dihapus)
 11. Forgot password login (keenan + naufal)
 12. Sambungin register-login-logout dengan backend (udah bisa tinggal dirapikan kodingannya, keenan + naufal) 
+13. Responsive dashboard (on progress - alvin)
 
 ===================================================
 # (( tanya Acara/Materi ))
