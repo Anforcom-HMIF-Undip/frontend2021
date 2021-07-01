@@ -33,7 +33,7 @@ function showTimeline(timeline){
     let html = ``;
     let count = 1;
     for (let i = 0; i<timeline.length;i++) {
-        if (timeline[i].monthYear == "Mei 2021"){
+        if (timeline[i].description == "Pembukaan Pendaftaran"){
             html +=
             `<div
                 data-aos="fade-left"
