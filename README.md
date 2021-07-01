@@ -9,5 +9,7 @@ Frontend repository for Anforcom 2021
 4. Mobile Responsive Home Page (on progress)
 5. Gambar ada yang hilang (on progress)
 6. Medpart di page competitions (on progress)
-7. link ke dashboard
-8. timeline di dashboard
+7. Link ke dashboard (keenan + naufal)
+8. Timeline di dashboard (alvin)
+9. Terms and condition signup (lagi tanya dekdok)
+10. Forgot password login (lagi tanya dekdok)
