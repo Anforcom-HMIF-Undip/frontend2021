@@ -11,5 +11,5 @@ Frontend repository for Anforcom 2021
 6. Medpart di page competitions (on progress)
 7. Link ke dashboard (keenan + naufal)
 8. Timeline di dashboard (alvin)
-9. Terms and condition signup (lagi tanya dekdok)
-10. Forgot password login (lagi tanya dekdok)
+9. Terms and condition signup (dihapus)
+10. Forgot password login (keenan + naufal)
