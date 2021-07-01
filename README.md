@@ -14,6 +14,7 @@ Frontend repository for Anforcom 2021
 9. Timeline di dashboard (alvin)
 - [x] Terms and condition signup (dihapus)
 11. Forgot password login (keenan + naufal)
+12. Sambungin register-login-logout dengan backend (udah bisa tinggal dirapikan kodingannya, keenan + naufal) 
 
 ===================================================
 # (( tanya Acara/Materi ))
