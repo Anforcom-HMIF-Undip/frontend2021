@@ -23,5 +23,5 @@ Frontend repository for Anforcom 2021
 13. Apa kata mereka ( kata² singkat penjelas judul, kurang kak rafly, ka Risang(icang gamau lagi cari pengganti), kalo mo nambah gpp) ( tanya acara/materi )
 
 # Tambahan dari dekdok
-14. Font heading banyak yang bekan mohol
+- [x] Font heading banyak yang bekan mohol
 15. Easing homepage kelamaan
