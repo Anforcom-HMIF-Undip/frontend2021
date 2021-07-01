@@ -9,10 +9,11 @@ Frontend repository for Anforcom 2021
 4. Mobile Responsive Home Page (on progress  - jason)
 5. Gambar ada yang hilang (on progress  - jason)
 6. Medpart di page competitions (on progress  - jason)
-7. Link ke dashboard (keenan + naufal)
-8. Timeline di dashboard (alvin)
-9. Terms and condition signup (dihapus)
-10. Forgot password login (keenan + naufal)
+7. Ngelengkapin kata2 Home Page - Competitions (on progress  - jason)
+8. Link ke dashboard (keenan + naufal)
+9. Timeline di dashboard (alvin)
+10. Terms and condition signup (dihapus)
+11. Forgot password login (keenan + naufal)
 
 ===================================================
 # (( tanya dekdok ))
