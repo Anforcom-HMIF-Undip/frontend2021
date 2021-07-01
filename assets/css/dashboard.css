@@ -16,7 +16,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-style: 400;
-  background-color: #fff;
+  background: #f2f5fa;
   color: #121212;
 }
 
@@ -132,7 +132,6 @@ nav a.icon{
 .content-wrapper {
   background: #f2f5fa;
   min-height: 100vh;
-  width: 100%;
 }
 
 .main-btn {
