@@ -13,3 +13,11 @@ Frontend repository for Anforcom 2021
 8. Timeline di dashboard (alvin)
 9. Terms and condition signup (dihapus)
 10. Forgot password login (keenan + naufal)
+
+===================================================
+# (( tanya dekdok ))
+
+11. tentang anforcom ( tanya dekdok )
+12. FAQ ( 5 pertanyaan 5 jawaban) ( tanya dekdok )
+13. Apa kata mereka ( kata² singkat penjelas judul, kurang kak rafly, ka Risang, kalo mo nambah gpp) ( tanya dekdok )
+
