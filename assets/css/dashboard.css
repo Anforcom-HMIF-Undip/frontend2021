@@ -1,28 +1,13 @@
 /* --------------------
       Default css
 ----------------------- */
-
-<<<<<<< HEAD
 /* Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-=======
-/* Work Sans */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
->>>>>>> 2ce81fc66fffa686c15bca38c92ede8cd7b959ce
+
 /* font mohol */
 @font-face {
   font-family: 'moholregular';
   src: url(../fonts/mohol-regular-webfont.woff) format('woff2');
-<<<<<<< HEAD
-=======
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-body {
-  font-family: 'Work Sans', -apple-system, sans-serif;
->>>>>>> 2ce81fc66fffa686c15bca38c92ede8cd7b959ce
   font-weight: normal;
   font-style: normal;
 }
@@ -335,22 +320,8 @@ margin-bottom: 10px;
   font-family:"moholregular", sans-serif;
 }
 
-<<<<<<< HEAD
 .card-timeline.active{
   background: #105395;
-=======
-/*===ab-select-box===*/
-.tab-para{
-	padding: 43px 42px 24px;
-}
-.single-tab-select-box h2{
-	color: #565a5c;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: "moholregular", sans-serif;
-    text-transform: capitalize;
-    margin-bottom: 17px;
->>>>>>> 2ce81fc66fffa686c15bca38c92ede8cd7b959ce
 }
 .card-timeline.active p{
   color:#fff;
