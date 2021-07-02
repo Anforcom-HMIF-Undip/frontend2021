@@ -11,6 +11,11 @@ Frontend repository for Anforcom 2021
 - :white_check_mark: Medpart di page competitions (on progress  - jason) 
 - :white_check_mark: Ngelengkapin kata2 Home Page - Competitions (on progress  - jason)
 - :bangbang: cek link (on progress  - jason)
+- link sejuta cita di homepage sponsorship?
+- link "daftar sekarang" di infolomba bisnisIT/UIUX
+- guidebook infolomba
+- copyright di register yang masih ada margin bottomnya
+- logo anforcom di footer belum href ke anforcom.com
 8. Link ke dashboard (keenan + naufal)
 - :white_check_mark: Timeline di dashboard (alvin)
 - :white_check_mark: Terms and condition signup (dihapus)
