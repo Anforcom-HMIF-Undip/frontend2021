@@ -5,7 +5,7 @@ Frontend repository for Anforcom 2021
 ##### yang mau nambahin silahkan :)
 - :white_check_mark: Scroll bar custom jason blom untuk page lainnya juga (on progress - jason)
 - :white_check_mark: Hamburger navbar alvin (on progress  - jason) 
-3. Navbar blom sama semua (on progress  - jason) ----> kurang login page
+- :white_check_mark: Navbar blom sama semua (on progress  - jason) ----> kurang login page
 - :white_check_mark: Mobile Responsive Home Page (on progress  - jason) 
 - :white_check_mark: Gambar ada yang hilang (on progress  - jason) 
 - :white_check_mark: Medpart di page competitions (on progress  - jason) 
