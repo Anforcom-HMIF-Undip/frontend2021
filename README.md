@@ -11,12 +11,12 @@ Frontend repository for Anforcom 2021
 - :white_check_mark: Medpart di page competitions (on progress  - jason) 
 - :white_check_mark: Ngelengkapin kata2 Home Page - Competitions (on progress  - jason)
 - :bangbang: cek link (on progress  - jason)
-- :bangbang: link sejuta cita di homepage sponsorship?
-- :bangbang: link "daftar sekarang" di infolomba bisnisIT/UIUX
+- :white_check_mark: link sejuta cita di homepage sponsorship
+- :white_check_mark: link "daftar sekarang" di infolomba bisnisIT/UIUX
 - :bangbang: guidebook infolomba
-- :bangbang: copyright di register yang masih ada margin bottomnya
-- :bangbang: logo anforcom di footer belum href ke anforcom.com
-- :bangbang: hapus accept terms and agreement signup 
+- :white_check_mark: copyright di register yang masih ada margin bottomnya
+- :white_check_mark: logo anforcom di footer belum href ke index.html
+- :white_check_mark: hapus accept terms and agreement signup 
 8. Link ke dashboard (keenan + naufal)
 - :white_check_mark: Timeline di dashboard (alvin)
 - :white_check_mark: Terms and condition signup (dihapus)
@@ -30,6 +30,12 @@ Frontend repository for Anforcom 2021
 - :white_check_mark: tentang anforcom ( tanya acara )
 12. FAQ ( 5 pertanyaan 5 jawaban) ( tanya acara/materi )
 13. Apa kata mereka ( kata² singkat penjelas judul, kurang kak rafly, ka Risang(icang gamau lagi cari pengganti), kalo mo nambah gpp) ( tanya acara/materi )
+
+# (( tanya dekdok ))
+14. Custom error page 404?
+15. (page) Pengumuman finalis?
+16. form edit profile
+17. form forgot password
 
 # Tambahan dari dekdok
 - :white_check_mark: Font heading banyak yang bekan mohol
