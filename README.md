@@ -16,6 +16,7 @@ Frontend repository for Anforcom 2021
 - :bangbang: guidebook infolomba
 - :bangbang: copyright di register yang masih ada margin bottomnya
 - :bangbang: logo anforcom di footer belum href ke anforcom.com
+- :bangbang: hapus accept terms and agreement signup 
 8. Link ke dashboard (keenan + naufal)
 - :white_check_mark: Timeline di dashboard (alvin)
 - :white_check_mark: Terms and condition signup (dihapus)
