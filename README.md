@@ -23,6 +23,7 @@ Frontend repository for Anforcom 2021
 11. Forgot password login (keenan + naufal)
 12. Sambungin register-login-logout dengan backend (udah bisa tinggal dirapikan kodingannya, keenan + naufal) 
 - :white_check_mark: Responsive dashboard (alvin)
+- :white_check_mark: hapus agenda di dashboard
 
 ===================================================
 # (( tanya Acara/Materi ))
@@ -36,6 +37,7 @@ Frontend repository for Anforcom 2021
 15. (page) Pengumuman finalis?
 16. form edit profile
 17. form forgot password
+18. formulir isi biodata team di dashboard
 
 # Tambahan dari dekdok
 - :white_check_mark: Font heading banyak yang bekan mohol
