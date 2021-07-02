@@ -10,6 +10,7 @@ Frontend repository for Anforcom 2021
 - :white_check_mark: Gambar ada yang hilang (on progress  - jason) 
 - :white_check_mark: Medpart di page competitions (on progress  - jason) 
 - :white_check_mark: Ngelengkapin kata2 Home Page - Competitions (on progress  - jason)
+- cek link (on progress  - jason)
 8. Link ke dashboard (keenan + naufal)
 - :white_check_mark: Timeline di dashboard (alvin)
 - :white_check_mark: Terms and condition signup (dihapus)
