@@ -12,10 +12,10 @@ Frontend repository for Anforcom 2021
 - :white_check_mark: Ngelengkapin kata2 Home Page - Competitions (on progress  - jason)
 - :bangbang: cek link (on progress  - jason)
 - :bangbang: link sejuta cita di homepage sponsorship?
-- bangbang: link "daftar sekarang" di infolomba bisnisIT/UIUX
-- bangbang: guidebook infolomba
-- bangbang: copyright di register yang masih ada margin bottomnya
-- bangbang: logo anforcom di footer belum href ke anforcom.com
+- :bangbang: link "daftar sekarang" di infolomba bisnisIT/UIUX
+- :bangbang: guidebook infolomba
+- :bangbang: copyright di register yang masih ada margin bottomnya
+- :bangbang: logo anforcom di footer belum href ke anforcom.com
 8. Link ke dashboard (keenan + naufal)
 - :white_check_mark: Timeline di dashboard (alvin)
 - :white_check_mark: Terms and condition signup (dihapus)
