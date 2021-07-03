@@ -3,14 +3,14 @@ Frontend repository for Anforcom 2021
 
 # catatan yang belum fixed
 ##### yang mau nambahin silahkan :)
-- :white_check_mark: Scroll bar custom jason blom untuk page lainnya juga (on progress - jason)
-- :white_check_mark: Hamburger navbar alvin (on progress  - jason) 
-- :white_check_mark: Navbar blom sama semua (on progress  - jason) ----> kurang login page
-- :white_check_mark: Mobile Responsive Home Page (on progress  - jason) 
-- :white_check_mark: Gambar ada yang hilang (on progress  - jason) 
-- :white_check_mark: Medpart di page competitions (on progress  - jason) 
-- :white_check_mark: Ngelengkapin kata2 Home Page - Competitions (on progress  - jason)
-- :bangbang: cek link (on progress  - jason)
+- :white_check_mark: Scroll bar custom jason blom untuk page lainnya juga (solved - jason)
+- :white_check_mark: Hamburger navbar alvin (solved - jason) 
+- :white_check_mark: Navbar blom sama semua (solved - jason) 
+- :white_check_mark: Mobile Responsive Home Page (solved - jason) 
+- :white_check_mark: Gambar ada yang hilang (solved - jason) 
+- :white_check_mark: Medpart di page competitions (solved - jason) 
+- :white_check_mark: Ngelengkapin kata2 Home Page - Competitions (solved - jason)
+- :white_check_mark: cek link (solved - jason)
 - :white_check_mark: link sejuta cita di homepage sponsorship
 - :white_check_mark: link "daftar sekarang" di infolomba bisnisIT/UIUX
 - :bangbang: guidebook infolomba
@@ -24,6 +24,8 @@ Frontend repository for Anforcom 2021
 12. Sambungin register-login-logout dengan backend (udah bisa tinggal dirapikan kodingannya, keenan + naufal) 
 - :white_check_mark: Responsive dashboard (alvin)
 - :white_check_mark: hapus agenda di dashboard
+13. hide sponsor google dkk
+14. contact sebelah FAQ dashboard
 
 ===================================================
 # (( tanya Acara/Materi ))
@@ -41,4 +43,4 @@ Frontend repository for Anforcom 2021
 
 # Tambahan dari dekdok
 - :white_check_mark: Font heading banyak yang bekan mohol
-- :white_check_mark: Easing homepage kelamaan :white_check_mark:
+- :white_check_mark: Easing homepage kelamaan :white_check_mark: 
