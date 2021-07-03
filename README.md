@@ -3,14 +3,14 @@ Frontend repository for Anforcom 2021
 
 # catatan yang belum fixed
 ##### yang mau nambahin silahkan :)
-- :white_check_mark: Scroll bar custom jason blom untuk page lainnya juga (on progress - jason)
-- :white_check_mark: Hamburger navbar alvin (on progress  - jason) 
-- :white_check_mark: Navbar blom sama semua (on progress  - jason) ----> kurang login page
-- :white_check_mark: Mobile Responsive Home Page (on progress  - jason) 
-- :white_check_mark: Gambar ada yang hilang (on progress  - jason) 
-- :white_check_mark: Medpart di page competitions (on progress  - jason) 
-- :white_check_mark: Ngelengkapin kata2 Home Page - Competitions (on progress  - jason)
-- :bangbang: cek link (on progress  - jason)
+- :white_check_mark: Scroll bar custom jason blom untuk page lainnya juga (solved - jason)
+- :white_check_mark: Hamburger navbar alvin (solved - jason) 
+- :white_check_mark: Navbar blom sama semua (solved - jason) 
+- :white_check_mark: Mobile Responsive Home Page (solved - jason) 
+- :white_check_mark: Gambar ada yang hilang (solved - jason) 
+- :white_check_mark: Medpart di page competitions (solved - jason) 
+- :white_check_mark: Ngelengkapin kata2 Home Page - Competitions (solved - jason)
+- :white_check_mark: cek link (solved - jason)
 - :white_check_mark: link sejuta cita di homepage sponsorship
 - :white_check_mark: link "daftar sekarang" di infolomba bisnisIT/UIUX
 - :bangbang: guidebook infolomba
