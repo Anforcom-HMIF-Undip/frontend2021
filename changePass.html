@@ -50,6 +50,16 @@
           document.getElementById("confirmPassword").innerHTML = "required";
           output = false;
         }
+
+        if(currentPassword.length < 8){
+          document.getElementById("currentPassword").innerHTML = "password length must be at least 8 characters";
+          output = false;
+        } else if(newPassword.length < 8) {
+          newPassword.focus();
+          document.getElementById("newPassword").innerHTML = "password length must be at least 8 characters";
+          output = false;
+        }
+
         if(newPassword.value != confirmPassword.value) {
           newPassword.value="";
           confirmPassword.value="";

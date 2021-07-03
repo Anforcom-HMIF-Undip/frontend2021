@@ -1,12 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+    <!-- Meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
@@ -14,12 +14,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
-    <!-- auth CSS -->
-    <link rel="stylesheet" href="assets/css/auth.css">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="assets/css/seminar.css"/>
 
-    <title>Login Anforcom 2021</title>
+    <title>Seminar Anforcom</title>
   </head>
-
   <body>
     <!-- Navbar Section Begin -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
@@ -63,11 +62,11 @@
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink">
                 <li>
-                  <a class="dropdown-item" href="./BusinessIT.html"
+                  <a class="dropdown-item" href="BusinessIT.html"
                     >Business Case Competition</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./UIUX.html"
+                  <a class="dropdown-item" href="UIUX.html"
                     >UI/UX Design Competition</a>
                 </li>
               </ul>
@@ -84,53 +83,77 @@
     </nav>
     <!-- Navbar Section End -->
 
-    <section class="login" style="background-image: url('assets/images/background.png')">
-      <div class="row">
-        <div class="login-form col-lg-7">
-          <h1 class="login-header">Login to<br>Dashboard</h1>
+      <!-- Hero Section Start-->
+      <section class="hero">
+        <div class="container px-4 px-lg-0 py-5">
+          <div class="row">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <h1  data-aos="fade-right"
+                  data-aos-once="true"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                  class="title mb-3 mb-lg-5 display-5">Seminar<br>Anforcom 2021</h1>
+              <p  data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                  class="description">Sebuah kegiatan dimana para peserta berdiskusi bersama dengan tujuan untuk menggapai sebuah insight baru tentang skill seorang Software Engineer untuk membuat generasi masa depan yang luar biasa. Seminar ini akan diadakan secara online dengan dipandu oleh seorang software engineer professional.</p>
 
-          <form>
-            <!--Input email-->
-            <label>Email</label>
-            <div class="form-row">
-              <div class="col-lg-7">
-                <input type="email" placeholder="anforcom2021@email.com" class="form-control" id="femail" value="">
+              <div
+                data-aos="fade-up"
+                data-aos-once="true"
+                data-aos-delay="500"
+                class="d-flex price mb-4">
+                <p class="me-4">Biaya Pendaftaran</p>
+                <div class="d-flex justify-content-center align-items-center bg-price rounded-pill">Rp200.000</div>
               </div>
-              <span class="annotation" id="emailMsg">We'll never share your email with anyone else</span>
-            </div>
 
-            <!--Input password-->
-            <label>Password</label>
-            <div class="form-row">
-              <div class="col-lg-7">
-                <input type="password" placeholder="********" class="form-control" id="pswd1" value="">
-              </div>
-              <span class="annotation" id="pw1Msg"></span>
-            </div>
-
-            <p class="ask-account" ><a href=#>Forgot password?</a><br>
-            <a href="register.html">Create new account</a></p>
-
-            <!--Login button-->
-            <div class="form-row">
-              <div class="col-lg-7">
-                <button type="submit" value="Submit" class="login-button">Login</button>
+              <div class="info d-lg-flex">
+                <a
+                  data-aos="fade-right"
+                  data-aos-once="true"
+                  data-aos-delay="700"
+                 class="text-decoration-none text-white" href="register.html">
+                  <div class="mb-3 mb-lg-0 me-lg-4 rounded d-flex align-items-center justify-content-center bg-signup">
+                    Daftar Sekarang
+                  </div>
+                </a>
               </div>
             </div>
-          </form>
-
+            <div
+            data-aos="zoom-in-up"
+            data-aos-once="true"
+            data-aos-delay="200"
+            class="col-lg-6 d-flex justify-content-center justify-content-lg-end">
+              <img class="img-fluid d-none d-lg-inline" src="./assets/images/lomba/seminar.png" alt="business-illustration">
+              <img class="img-fluid d-lg-none" src="./assets/images/lomba/seminar-mobile.png" alt="business-illustration">
+            </div>
+          </div>
         </div>
-        <div class="illustration col-lg-5">
-          <img src="assets/images/laptop-illustration.png" class="img-fluid" alt="">
+      </section>
+      <!-- Hero Section End-->
+
+    <!-- Speakers Section Start -->
+    <section class="speaker">
+      <div class="container text-center x-4 px-lg-0 py-5">
+        <h3 class="mb-4 title">Our Speakers</h3>
+        <p class="mb-5 description">Pembicara seminar Anforcom 2021<br>merupakan seorang Software Engineer<br>Professional dengan berbagai pengalaman</p>
+        <div class="row d-flex justify-content-center gap-lg-3 align-items-center flex-column flex-xl-row">
+          <div class="col-6">
+            <ul>
+              <li class="speaker1 my-5 px-5"><img class="img-fluid" src="assets/images/speaker2.png" alt="speaker1"></li>
+              <li class="speaker2 my-5 px-5"><img class="img-fluid" src="assets/images/speaker1.png" alt="speaker2"></li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
+    <!-- Speakers Section End -->
 
     <section id="sponsor-medpar">
       <div class="row">
         <!-- judul sponsor -->
         <div class="sponsor col-lg-6">
-          <div class="pt-5 px-5">
+          <div class="px-5">
             <p class="mb-4 medpar-title">Sponsored By :</p>
           </div>
           <!-- <div class="container-fluid">
@@ -145,7 +168,7 @@
           </div> -->
         </div>
         <div class="medpar col-lg-6">
-          <div class="pt-5 px-5">
+          <div class="px-5">
             <p class="mb-4 medpar-title">Media Patners :</p>
           </div>
           <div class="medpar-logo">
@@ -157,10 +180,10 @@
         <div class="px-5">
           <p class="mb-4 support-title">Supported By :</p>
         </div>
-        <div class="support-logo ps-5 py-3 col-lg-1 col-sm-3">
+        <div class="support-logo ps-5 py-4 col-lg-1 col-sm-3">
           <img src="assets/images/homepage/sponsor-medpart/undip.png" alt="">
         </div>
-        <div class="support-logo px-4 py-3 col-lg-1 col-sm-3">
+        <div class="support-logo px-4 py-4 col-lg-1 col-sm-3">
           <img src="assets/images/homepage/sponsor-medpart/hmif.png" alt="">
         </div>
       </div>
@@ -217,6 +240,5 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
   </body>
 </html>
