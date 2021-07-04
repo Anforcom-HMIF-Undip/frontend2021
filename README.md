@@ -24,7 +24,7 @@ Frontend repository for Anforcom 2021
 12. Sambungin register-login-logout dengan backend (udah bisa tinggal dirapikan kodingannya, keenan + naufal) 
 - :white_check_mark: Responsive dashboard (alvin)
 - :white_check_mark: hapus agenda di dashboard
-13. hide sponsor google dkk
+- :white_check_mark: hide sponsor google dkk
 14. contact sebelah FAQ dashboard
 
 ===================================================
