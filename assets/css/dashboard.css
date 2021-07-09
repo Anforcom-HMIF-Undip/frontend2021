@@ -91,7 +91,7 @@ img {
     display: block;
     align-items:start!important;
     width: 250px;
-  } 
+  }
   .sidebar-wrapper{
     position: fixed;
   }
@@ -331,4 +331,45 @@ margin-bottom: 10px;
 }
 .card-timeline.active h3{
   color:#fff;
+}
+
+@media (min-width: 992px) {
+  .form-daftar {
+    width: 500px;
+  }
+}
+
+/* coba form */
+
+.input-group-prepend {
+}
+
+.input-group-prepend span {
+  width: 37px;
+  background-color: #f6ba00;
+  color: black;
+  border: 0 !important;
+}
+
+.input-group-prepend span i {
+  font-size: 12px;
+}
+
+.form-group .input-group .form-control-placeholder {
+    letter-spacing: 0.6px;
+}
+
+/* list event */
+@media (max-width: 426px) {
+  .list-event {
+    flex: 0 0 auto !important;
+    width: 83.3333333333% !important;
+  }
+}
+
+/*coba dropdown */
+@media (min-width: 992px) {
+  #pembayaran {
+    width: 290px;
+  }
 }
