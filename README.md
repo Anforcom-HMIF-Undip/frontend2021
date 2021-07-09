@@ -37,9 +37,12 @@ Frontend repository for Anforcom 2021
 # (( tanya dekdok ))
 - :white_check_mark: Custom error page 404?
 - :white_check_mark: seminar
-16. form edit profile
-17. form forgot password
-18. formulir isi biodata team di dashboard
+16. :bangbang: form edit profile
+- :white_check_mark: form forgot password
+- :white_check_mark: formulir isi biodata team di dashboard
+- :white_check_mark: form pembayaran
+- :white_check_mark: list event dashboard
+- :white_check_mark: form submission/tugas
 
 # Tambahan dari dekdok
 - :white_check_mark: Font heading banyak yang bekan mohol
