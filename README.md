@@ -35,7 +35,7 @@ Frontend repository for Anforcom 2021
 13. Apa kata mereka ( kata² singkat penjelas judul, kurang kak rafly, ka Risang(icang gamau lagi cari pengganti), kalo mo nambah gpp) ( tanya acara/materi )
 
 # (( tanya dekdok ))
-14. Custom error page 404?
+- :white_check_mark: Custom error page 404?
 - :white_check_mark: seminar
 16. form edit profile
 17. form forgot password
