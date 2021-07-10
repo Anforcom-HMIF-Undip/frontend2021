@@ -3309,6 +3309,13 @@ hr {
 }
 
 @media (max-width: 575px) {
+    .slider-area {
+        box-sizing: border-box !important;
+    }
+
+    .pd-mobile {
+        margin-bottom: -40px !important;
+    }
 
     .slider-area .hero__caption h1 {
         font-size: 40px !important;
@@ -3323,12 +3330,26 @@ hr {
         height: 354px !important;
     }
 
+    .slider-area .hero__img3 img {
+        position: relative;
+        top: 5px !important;
+        right: 9px !important;
+        width: 334px !important;
+
+    }
+
     .slider-area .hero__caption p {
         font-size: 16px !important;
 
     }
 
     .slider-area .hero__img img {
+        width: 350px;
+        top: 30px !important;
+        right: 50px !important;
+    }
+
+    .slider-area .hero__img4 img {
         width: 400px;
         top: 30px !important;
         right: -40px !important;
@@ -3339,6 +3360,7 @@ hr {
         top: 30px !important;
         right: -40px !important;
     }
+
 
     .slider-area .hero__caption button {
         margin-left: 130px;
@@ -3566,6 +3588,13 @@ hr {
 
 .slider-area .hero__img img {
     position: absolute;
+    top: -230px;
+    right: -20px;
+
+}
+
+.slider-area .hero__img4 img {
+    position: absolute;
     top: -115px;
     right: -100px;
 
@@ -3573,16 +3602,23 @@ hr {
 
 
 
-
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
+
     .slider-area .hero__img img {
+        right: 0;
+        bottom: 0;
+    }
+
+    .slider-area .hero__img4 img {
         right: 0;
         bottom: 0;
     }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
-    .slider-area .hero__img img {
+
+    .slider-area .hero__img img,
+    .slider-area .hero__img4 img {
         right: 0;
 
     }
@@ -3594,6 +3630,13 @@ hr {
     right: 15px;
     width: 454px;
     height: 454px;
+}
+
+.slider-area .hero__img3 img {
+    position: relative;
+    top: -15px;
+    right: 25px;
+
 }
 
 .slider-area .slider-shape .slider-shape1 {

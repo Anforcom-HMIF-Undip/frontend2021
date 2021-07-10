@@ -1,0 +1,42 @@
+.speaker1,
+.speaker2 {
+    display: inline-block;
+    white-space: nowrap;
+
+}
+
+.speaker1 img,
+.speaker2 img {
+    width: 100% !important;
+}
+
+.kanandikit {
+    margin-right: 40px;
+}
+
+@media (max-width: 575px) {
+
+    .speaker1 img,
+    .speaker2 img {
+        width: 300% !important;
+    }
+
+    .kanandikit {
+        margin-right: 0px !important;
+        margin-top: 40px !important;
+    }
+}
+
+/* @media (min-width: 992px) and (max-width: 1199px) */
+@media (min-width: 600px) and (max-width: 1199px) {
+
+    .speaker1 img,
+    .speaker2 img {
+        width: 300% !important;
+    }
+
+    .kanandikit {
+        margin-right: 0px !important;
+        margin-top: 40px !important;
+    }
+}

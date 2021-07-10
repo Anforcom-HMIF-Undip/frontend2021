@@ -1,32 +1,37 @@
 const timeline = [{
-        day: "20",
-        monthYear: "Mei 2021",
+        day: "15",
+        monthYear: "Juli 2021",
         description: "Pembukaan Pendaftaran"
+    },
+    {
+        day: "3",
+        monthYear: "September 2021",
+        description: "Penutupan Pendaftaran"
+    },
+    {
+        day: "3",
+        monthYear: "September 2021",
+        description: "Pengumpulan Proposal"
     },
     {
         day: "10",
-        monthYear: "Agustus 2021",
-        description: "Pembukaan Pendaftaran"
-    },
-    {
-        day: "20",
-        monthYear: "Agustus 2021",
-        description: "Pembukaan Pendaftaran"
-    },
-    {
-        day: "31",
-        monthYear: "Agustus 2021",
-        description: "Pembukaan Pendaftaran"
-    },
-    {
-        day: "1",
         monthYear: "September 2021",
-        description: "Pembukaan Pendaftaran"
+        description: "Pengumuman Finalis"
     },
     {
-        day: "17",
+        day: "11",
         monthYear: "September 2021",
-        description: "Pembukaan Pendaftaran"
+        description: "Technical Meeting"
+    },
+    {
+        day: "19",
+        monthYear: "September 2021",
+        description: "Presentasi Lomba (Final)"
+    },
+    {
+        day: "25",
+        monthYear: "September 2021",
+        description: "Closing dan Seminar"
     },
 ]
 
