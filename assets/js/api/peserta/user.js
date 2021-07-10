@@ -11,11 +11,9 @@ const user = async () => {
                 Authorization : `Bearer ${tokenAnforcom}`,
             }
         });
-        axios.defaults.headers.post['X-CSRF-Token'] = response.data._csrf;
 
         if (response.data.status === "SUCCESS") {
-            const getUserName = response.data.payload.name;
-            userName = getUserName;
+            userName = response.data.payload.name;
         }
 
     } catch(error) {
