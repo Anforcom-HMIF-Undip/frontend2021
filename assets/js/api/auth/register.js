@@ -7,19 +7,19 @@ const validateForm = () => {
     var pw2 = document.getElementById("pswd2").value;
 
     if(name == "") {
-        document.getElementById("nameMsg").innerHTML = "Fill in the full name";
+        document.getElementById("nameMsg").innerHTML = "Fill in the full name, please!";
         return false;
     }
 
     if(!isNaN(name)){
-        document.getElementById("nameMsg").innerHTML = "Only characters are allowed";
+        document.getElementById("nameMsg").innerHTML = "Only characters are allowed!";
         return false;
     }else{
         document.getElementById("nameMsg").innerHTML = "";
     }
 
     if(email ==""){
-        document.getElementById("emailMsg").innerHTML = "Fill in the email";
+        document.getElementById("emailMsg").innerHTML = "Fill in the email, please!";
         return false;
     }
 
@@ -29,7 +29,7 @@ const validateForm = () => {
     }
 
     if(pw1.length < 8) {
-        document.getElementById("pw1Msg").innerHTML = "Password length must be at least 8 characters";
+        document.getElementById("pw1Msg").innerHTML = "Password length must be at least 8 characters!";
         return false;
     }else{
         document.getElementById("pw1Msg").innerHTML = "";
@@ -71,7 +71,7 @@ const register = async () => {
         }
 
         const errMessage = response.data.message;
-        alert(`${errMessage}. Register gagal. Silakan ulangi kembali`);
+        alert(`${errMessage}. Silakan ulangi kembali`);
         return window.location.replace(config.local_frontend_register);
     } catch(error) {
         alert("Register gagal. Silakan ulangi kembali");
