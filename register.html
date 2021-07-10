@@ -139,7 +139,7 @@
             <!--Sign Up button-->
             <div class="form-row my-3">
               <div class="col-lg-7">
-                <button type="submit" value="Submit" class="login-button">Sign Up</button>
+                <button type="submit" value="Submit" class="login-button" id="regis-btn">Sign Up</button>
               </div>
             </div>
 
@@ -241,9 +241,13 @@
     </footer>
     <!-- Footer Section End -->
 
-    <script src="assets/js/auth.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="https://unpkg.com/axios@0.21.1/dist/axios.min.js"></script>
+    <script type="module" src="assets/js/config/config.js"></script>
+    <script src="assets/js/auth.js"></script>
+    <script type="module" src="assets/js/api/auth/register.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
   </body>
