@@ -49,8 +49,8 @@
         <div class="container ps-5 pe-5 me-5">
           <div class="row">
             <div class="col-12">
-              <h3 class="mt-4 mb-2">Selamat Datang, Fikri!</h3>
-              <p style="font-size: 14px;">Wah kamu terlihat belum mengikuti event maupun lomba apapaun, segera daftarkan dirimu!</p>
+              <h3 class="mt-4 mb-2">Selamat Datang, <span id="uname"></span>!</h3>
+              <p style="font-size: 14px;">Wah kamu terlihat belum mengikuti event maupun lomba apapun, segera daftarkan dirimu!</p>
               <ul class="mt-4"><li><a class="main-btn daftar" href="listEvent.html">Daftar Sekarang</a></li></ul>
             </div>
           </div>
@@ -61,5 +61,10 @@
 
     <!-- JS Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="https://unpkg.com/axios@0.21.1/dist/axios.min.js"></script>
+    <script type="module" src="assets/js/config/config.js"></script>
+    <script type="module" src="assets/js/api/auth/logout.js"></script>
+    <script type="module" src="assets/js/api/peserta/user.js"></script>
   </body>
 </html>

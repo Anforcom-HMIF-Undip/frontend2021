@@ -15,6 +15,7 @@ const config = {
     "local_logout" : `${local_api}/auth/logout`,
     "local_forgot_password" : `${local_api}/auth/forgot-password`,
     "local_reset_password" : `${local_api}/auth/reset-password`,
+    "local_user" : `${local_api}/dashboard/me`,
 
     "deploy_api" : `${deploy_api}`,
     "deploy_login" : `${deploy_api}/auth/login`,
