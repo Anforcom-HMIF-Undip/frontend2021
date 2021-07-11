@@ -67,7 +67,7 @@ const register = async () => {
 
         if (response.data.status === "SUCCESS") {
             alert("Register berhasil!");
-            return window.location.replace(config.local_frontend_login);
+            return window.location.href = config.local_frontend_login;
         }
 
         const errMessage = response.data.message;
