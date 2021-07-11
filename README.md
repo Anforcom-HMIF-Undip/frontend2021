@@ -21,7 +21,7 @@ Frontend repository for Anforcom 2021
 - :white_check_mark: Timeline di dashboard (alvin)
 - :white_check_mark: Terms and condition signup (dihapus)
 11. Forgot password login (keenan + naufal)
-12. Sambungin register-login-logout dengan backend (udah bisa tinggal dirapikan kodingannya, keenan + naufal) 
+- :white_check_mark: Sambungin register-login-logout dengan backend (udah bisa tinggal dirapikan kodingannya, keenan + naufal) 
 - :white_check_mark: Responsive dashboard (alvin)
 - :white_check_mark: hapus agenda di dashboard
 - :white_check_mark: hide sponsor google dkk

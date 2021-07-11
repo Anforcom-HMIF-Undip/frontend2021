@@ -36,7 +36,7 @@
               <li class="nav-item px-4"><a class="main-btn rounded-two" href="timeline.html"><img class="pe-4 icons" src="assets/images/calender.png" alt="timeline">Timeline</a></li>
               <li class="nav-item px-4"><a class="main-btn rounded-two" href="http://anforcom.com"><img class="pe-3 icons" src="assets/images/globe.png" alt="main">Anforcom</a></li>
               <li class="garis d-md-none d-lg-block"><hr></li>
-              <li class="nav-item px-4"><a class="main-btn rounded-two" href="http://anforcom.com"><img class="pe-3 icons" src="assets/images/exit.png" alt="logout">  Logout</a></li>
+              <li class="nav-item px-4"><a class="main-btn rounded-two" href="http://anforcom.com" id="logout-btn"><img class="pe-3 icons" src="assets/images/exit.png" alt="logout">  Logout</a></li>
             </ul>
           </div>
           <p class="d-none d-lg-block copyright">&copy Anforcom 2021</p>
@@ -74,6 +74,7 @@
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <script src="https://unpkg.com/axios@0.21.1/dist/axios.min.js"></script>
     <script type="module" src="assets/js/config/config.js"></script>
+    <script type="module" src="assets/js/api/auth/logout.js"></script>
     <script>
       document.querySelector("#uiux").addEventListener("click", (event) => {
         event.preventDefault();
