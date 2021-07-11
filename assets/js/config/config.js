@@ -16,6 +16,7 @@ const config = {
     "local_forgot_password" : `${local_api}/auth/forgot-password`,
     "local_reset_password" : `${local_api}/auth/reset-password`,
     "local_user" : `${local_api}/dashboard/me`,
+    "local_enroll_lomba": `${local_api}/dashboard/register`,
 
     "deploy_api" : `${deploy_api}`,
     "deploy_login" : `${deploy_api}/auth/login`,
@@ -23,10 +24,13 @@ const config = {
     "deploy_logout" : `${deploy_api}/auth/logout`,
     "deploy_forgot_password" : `${deploy_api}/auth/forgot-password`,
     "deploy_reset_password" : `${deploy_api}/auth/reset-password`,
+    "deploy_user" : `${deploy_api}/dashboard/me`,
+    "deploy_enroll_lomba": `${deploy_api}/dashboard/register`,
 
     "local_frontend_register" : `${local_frontend}/register.html`,
     "local_frontend_login" : `${local_frontend}/login.html`,
     "local_frontend_dashboard" : `${local_frontend}/dashboard.html`,
+    "local_frontend_terdaftar" : `${local_frontend}/terdaftar.html`,
 };
 
 export default config;
