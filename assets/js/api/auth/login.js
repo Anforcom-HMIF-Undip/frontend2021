@@ -45,7 +45,6 @@ const login = async () => {
 
         const errMessage = response.data.message;
         alert(`${errMessage}. Silakan ulangi kembali!`);
-        return window.location.replace(config.local_frontend_login);
     } catch(error) {
         alert("Login gagal. Silakan ulangi kembali!");
         return [error, window.location.replace(config.local_frontend_login)];

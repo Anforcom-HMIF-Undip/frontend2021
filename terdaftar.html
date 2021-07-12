@@ -53,7 +53,7 @@
         <div class="container-fluid ps-5 pe-5 me-5">
           <div class="row">
             <div class="col-12">
-              <h3 class="mt-4 mb-2">Selamat Datang, Fikri!</h3>
+              <h3 class="mt-4 mb-2">Selamat Datang, <span id="uname"></span>!</h3>
               <p style="font-size: 14px;">Dapatkan rangkuman informasi terkait dengan Anforcom disini</p>
             </div>
             <!-- coba -->
@@ -65,7 +65,7 @@
                         <div class="row no-mx">
                             <div class="col me-2">
                                 <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Kompetisi diikuti</div>
-                                <div class="h5 font-weight-bold text-gray-800">2</div>
+                                <div class="h5 font-weight-bold text-gray-800"><p id="count-competition">0</p></div>
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                         <div class="row no-mx">
                             <div class="col me-2">
                                 <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Event diikuti</div>
-                                <div class="h5 font-weight-bold text-gray-800">1</div>
+                                <div class="h5 font-weight-bold text-gray-800" id="count-event">0</div>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                         <div class="row no-mx">
                             <div class="col me-2">
                                 <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tugas tersisa</div>
-                                <div class="h5 font-weight-bold text-gray-800">1</div>
+                                <div class="h5 font-weight-bold text-gray-800" id="count-task">0</div>
                             </div>
                         </div>
                     </div>
@@ -110,9 +110,9 @@
               <div class="single-pricing enterprise mt-40">
                 <div class="pricing-list">
                   <ul class="status">
-                    <li class="px-3 py-3"><h6>UI/UX Competition</h6>Status: Menunggu pembayaran</li>
-                    <li class="px-3 py-3"><h6>Bussiness IT Case Competition</h6>Status: Pendaftaran selesai</li>
-                    <li class="px-3 py-3"><h6>Seminar</h6>Status: Pendaftaran selesai</li>
+                    <li class="px-3 py-3"><h6>UI/UX Competition</h6>Status: <span id="status-uiux"></span></li>
+                    <li class="px-3 py-3"><h6>Bussiness IT Case Competition</h6>Status: <span id="status-bisnis"></span></li>
+                    <li class="px-3 py-3"><h6>Seminar</h6>Status: <span id="status-seminar"></span></li>
                   </ul>
                 </div>
               </div>
@@ -129,9 +129,9 @@
                 <div class="pricing-list">
                   <ul>
                     <li>Submission UI/UX <br>Competition</li>
-                    <div class="text-xs font-weight-bold text-info mb-1">(Menunggu konfirmasi)</div>
+                    <div class="text-xs font-weight-bold text-info mb-1" id="task-uiux"></div>
                     <li>Submission Bussiness IT <br>Case Competition</li>
-                    <div class="text-xs font-weight-bold text-success mb-1">(Terkonfirmasi)</div>
+                    <div class="text-xs font-weight-bold text-success mb-1" id="task-bisnis"></div>
                   </ul>
                 </div>
               </div>

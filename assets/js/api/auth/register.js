@@ -72,7 +72,6 @@ const register = async () => {
 
         const errMessage = response.data.message;
         alert(`${errMessage}. Silakan ulangi kembali`);
-        return window.location.replace(config.local_frontend_register);
     } catch(error) {
         alert("Register gagal. Silakan ulangi kembali");
         return [error, window.location.replace(config.local_frontend_register)];
