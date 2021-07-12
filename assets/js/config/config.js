@@ -19,6 +19,7 @@ const config = {
     "local_events" : `${local_api}/dashboard/events`,
     "local_enroll_lomba": `${local_api}/dashboard/register`,
     "local_upload_transfer": `${local_api}/dashboard/transfer`,
+    "local_upload_submission": `${local_api}/dashboard/submission`,
 
     "deploy_api" : `${deploy_api}`,
     "deploy_login" : `${deploy_api}/auth/login`,

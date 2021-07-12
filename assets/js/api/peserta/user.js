@@ -67,7 +67,7 @@ if (countTask !== null) {
 }
 
 /* Status event yang terdaftar */
-if (lomba.length !== 0 && lomba !== null) {
+if (lomba!==null && lomba.length !== 0) {
     if (lomba[0].event_id === 1) {
         if (lomba[0].status == "inactive") {
             document.getElementById("status-uiux").innerHTML = "Menunggu pembayaran";
@@ -130,7 +130,7 @@ if (lomba.length !== 0 && lomba !== null) {
     document.getElementById("status-bisnis").innerHTML = "Belum mendaftar";
 }
 
-if (seminar.length !== 0 && seminar !== null) {
+if (seminar !== null && seminar.length !== 0) {
     if (seminar[0].status === "inactive") {
         document.getElementById("status-seminar").innerHTML = "Menunggu pembayaran";
     } else if (seminar[0].status === "paid") {
