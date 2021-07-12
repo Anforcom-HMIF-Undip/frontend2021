@@ -41,9 +41,6 @@ const events = async () => {
             lomba = response.data.payload.Lomba;
             seminar = response.data.payload.Seminar;
             task = response.data.payload.Task;
-
-            console.log(task.UIUX)
-
         }
 
     } catch(error) {

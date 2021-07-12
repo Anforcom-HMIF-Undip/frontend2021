@@ -18,6 +18,7 @@ const config = {
     "local_user" : `${local_api}/dashboard/me`,
     "local_events" : `${local_api}/dashboard/events`,
     "local_enroll_lomba": `${local_api}/dashboard/register`,
+    "local_upload_transfer": `${local_api}/dashboard/transfer`,
 
     "deploy_api" : `${deploy_api}`,
     "deploy_login" : `${deploy_api}/auth/login`,
@@ -32,6 +33,7 @@ const config = {
     "local_frontend_login" : `${local_frontend}/login.html`,
     "local_frontend_dashboard" : `${local_frontend}/dashboard.html`,
     "local_frontend_terdaftar" : `${local_frontend}/terdaftar.html`,
+    "local_frontend_pembayaran" : `${local_frontend}/pembayaran.html`,
 };
 
 export default config;
