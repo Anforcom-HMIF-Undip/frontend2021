@@ -3,13 +3,11 @@ Frontend repository for Anforcom 2021 <br>
 Demo : <br>
 [Click This Link to Demo Website](https://sabdadev.github.io/av21test/)
 # Minus 
-- :bangbang: Seminar Page
 - :bangbang: guidebook infolomba
 - :bangbang: Link ke dashboard (keenan + naufal)
 - :bangbang: Forgot password login (keenan + naufal)
 - :bangbang: Sambungin register-login-logout dengan backend (udah bisa tinggal dirapikan kodingannya, keenan + naufal) 
 - :bangbang: FAQ ( 5 pertanyaan 5 jawaban) ( tanya acara/materi )
-- :bangbang: Custom error page 404?
 - :bangbang: form edit profile
 - :bangbang: form forgot password
 - :bangbang: formulir isi biodata team di dashboard
@@ -37,5 +35,6 @@ Demo : <br>
 - :white_check_mark: contact sebelah FAQ 
 - :white_check_mark: tentang anforcom ( tanya acara )
 - :white_check_mark: Apa kata mereka ( kata² singkat penjelas judul, kurang kak rafly, ka Risang(icang gamau lagi cari pengganti), kalo mo nambah gpp) ( tanya acara/materi )
-
+- :white_check_mark: Seminar Page
+- :white_check_mark: Custom error page 404?
 
