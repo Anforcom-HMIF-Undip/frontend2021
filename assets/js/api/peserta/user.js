@@ -70,78 +70,78 @@ if (countTask !== null) {
 if (lomba!==null && lomba.length !== 0) {
     if (lomba[0].event_id === 1) {
         if (lomba[0].status == "inactive") {
-            document.getElementById("status-uiux").innerHTML = "Menunggu pembayaran";
+            document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-primary mb-1\">Menunggu pembayaran</span>";
         } else if (lomba[0].status === "paid") {
-            document.getElementById("status-uiux").innerHTML = "Menunggu konfirmasi";
+            document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-warning mb-1\">Menunggu konfirmasi</span>";
         } else if (lomba[0].status === "active") {
-            document.getElementById("status-uiux").innerHTML = "Pendaftaran selesai";
+            document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-success mb-1\">Pendaftaran selesai</span>";
         } else {
-            document.getElementById("status-uiux").innerHTML = "Pembayaran ditolak. Silakan kirim ulang bukti pembayaran";
+            document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-danger mb-1\">Pembayaran ditolak. Silakan kirim ulang bukti pembayaran</span>";
         }
     } else {
-        document.getElementById("status-uiux").innerHTML = "Belum mendaftar";
+        document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-secondary mb-1\">Belum mendaftar</span>";
     }
 
     if (lomba[0].event_id === 2) {
         if (lomba[0].status == "inactive") {
-            document.getElementById("status-bisnis").innerHTML = "Menunggu pembayaran";
+            document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-primary mb-1\">Menunggu pembayaran</span>";
         } else if (lomba[0].status === "paid") {
-            document.getElementById("status-bisnis").innerHTML = "Menunggu konfirmasi";
+            document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-warning mb-1\">Menunggu konfirmasi</span>";
         } else if (lomba[0].status === "active") {
-            document.getElementById("status-bisnis").innerHTML = "Pendaftaran selesai";
+            document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-success mb-1\">Pendaftaran selesai</span>";
         } else {
-            document.getElementById("status-bisnis").innerHTML = "Pembayaran ditolak. Silakan kirim ulang bukti pembayaran";
+            document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-danger mb-1\">Pembayaran ditolak. Silakan kirim ulang bukti pembayaran</span>";
         }
     } else {
-        document.getElementById("status-bisnis").innerHTML = "Belum mendaftar";
+        document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-secondary mb-1\">Belum mendaftar</span>";
     }
 
     if (lomba.length === 2) {
         if (lomba[1].event_id === 1) {
             if (lomba[1].status == "inactive") {
-                document.getElementById("status-uiux").innerHTML = "Menunggu pembayaran";
+                document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-primary mb-1\">Menunggu pembayaran</span>";
             } else if (lomba[1].status === "paid") {
-                document.getElementById("status-uiux").innerHTML = "Menunggu konfirmasi";
+                document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-warning mb-1\">Menunggu konfirmasi</span>";
             } else if (lomba[1].status === "active") {
-                document.getElementById("status-uiux").innerHTML = "Pendaftaran selesai";
+                document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-success mb-1\">Pendaftaran selesai</span>";
             } else {
-                document.getElementById("status-uiux").innerHTML = "Pembayaran ditolak. Silakan kirim ulang bukti pembayaran";
+                document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-danger mb-1\">Pembayaran ditolak. Silakan kirim ulang bukti pembayaran</span>";
             }
         } else {
-            document.getElementById("status-uiux").innerHTML = "Belum mendaftar";
+            document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-secondary mb-1\">Belum mendaftar</span>";
         }
 
         if (lomba[1].event_id === 2) {
             if (lomba[1].status == "inactive") {
-                document.getElementById("status-bisnis").innerHTML = "Menunggu pembayaran";
+                document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-primary mb-1\">Menunggu pembayaran</span>";
             } else if (lomba[1].status === "paid") {
-                document.getElementById("status-bisnis").innerHTML = "Menunggu konfirmasi";
+                document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-warning mb-1\">Menunggu konfirmasi</span>";
             } else if (lomba[1].status === "active") {
-                document.getElementById("status-bisnis").innerHTML = "Pendaftaran selesai";
+                document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-success mb-1\">Pendaftaran selesai</span>";
             } else {
-                document.getElementById("status-bisnis").innerHTML = "Pembayaran ditolak. Silakan kirim ulang bukti pembayaran";
+                document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-danger mb-1\">Pembayaran ditolak. Silakan kirim ulang bukti pembayaran</span>";
             }
         } else {
-            document.getElementById("status-bisnis").innerHTML = "Belum mendaftar";
+            document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-secondary mb-1\">Belum mendaftar</span>";
         }
     }
 } else {
-    document.getElementById("status-uiux").innerHTML = "Belum mendaftar";
-    document.getElementById("status-bisnis").innerHTML = "Belum mendaftar";
+    document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-secondary mb-1\">Belum mendaftar</span>";
+    document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-secondary mb-1\">Belum mendaftar</span>";
 }
 
 if (seminar !== null && seminar.length !== 0) {
     if (seminar[0].status === "inactive") {
-        document.getElementById("status-seminar").innerHTML = "Menunggu pembayaran";
+        document.getElementById("status-seminar").innerHTML = "<span class=\"text-xs font-weight-bold text-primary mb-1\">Menunggu pembayaran</span>";
     } else if (seminar[0].status === "paid") {
-        document.getElementById("status-seminar").innerHTML = "Menunggu konfirmasi";
+        document.getElementById("status-seminar").innerHTML = "<span class=\"text-xs font-weight-bold text-warning mb-1\">Menunggu konfirmasi</span>";
     } else if (seminar[0].status === "active") {
-        document.getElementById("status-seminar").innerHTML = "Pendaftaran selesai";
+        document.getElementById("status-seminar").innerHTML = "<span class=\"text-xs font-weight-bold text-success mb-1\">Pendaftaran selesai</span>";
     } else {
-        document.getElementById("status-seminar").innerHTML = "Pembayaran ditolak. Silakan kirim ulang bukti pembayaran";
+        document.getElementById("status-seminar").innerHTML = "<span class=\"text-xs font-weight-bold text-danger mb-1\">Pembayaran ditolak. Silakan kirim ulang bukti pembayaran</span>";
     }
 } else {
-    document.getElementById("status-seminar").innerHTML = "Belum mendaftar";
+    document.getElementById("status-seminar").innerHTML = "<span class=\"text-xs font-weight-bold text-secondary mb-1\">Belum mendaftar</span>";
 }
 
 /* Status tugas yang didapat */
