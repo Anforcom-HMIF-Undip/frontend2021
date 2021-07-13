@@ -15,9 +15,10 @@ const logout = async () => {
             return window.location.replace("https://anforcom.com/");
         }
 
-        return window.location.replace(config.local_frontend_dashboard);    // TODO: fix href to "ACTUAL" dashboard
+        // return window.location.replace(config.local_frontend_dashboard);    // TODO: fix href to "ACTUAL" dashboard
     } catch(error) {
-        return [error, window.location.replace(config.local_frontend_dashboard)];
+        alert("Logout gagal");
+        return [error, window.location.replace(config.local_frontend_terdaftar)];
     }
 }
 

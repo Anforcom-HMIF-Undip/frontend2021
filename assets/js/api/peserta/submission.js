@@ -28,6 +28,7 @@ const submission = async () => {
 
         alert(response.data.message);
     } catch(error) {
+        alert("Gagal mengirim submission");
         return window.location.href = "submission.html";
     }
 };
