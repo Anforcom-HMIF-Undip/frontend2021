@@ -28,6 +28,7 @@ const payment = async () => {
 
         alert(response.data.message);
     } catch(error) {
+        alert("Gagal mengirim bukti transfer. Silakan hubungi panitia");
         return window.location.href = "pembayaran.html";
     }
 };

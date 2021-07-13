@@ -3,7 +3,7 @@
  * Anforcom frontend
  */
 
-const local_api = "https://powerful-badlands-52415.herokuapp.com/api";
+const local_api = "http://127.0.0.1:8000/api";
 const deploy_api = "https://anforcom.com/api";
 const local_frontend = "http://127.0.0.1:5500";
 const deploy_frontend = "https://cobaanforcom21.netlify.app";

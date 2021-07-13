@@ -28,7 +28,7 @@ const submission = async () => {
 
         alert(response.data.message);
     } catch(error) {
-        alert("Gagal mengirim submission");
+        alert("Gagal mengirim submission. Silakan hubungi panitia");
         return window.location.href = "submission.html";
     }
 };

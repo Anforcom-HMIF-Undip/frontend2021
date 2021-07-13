@@ -75,7 +75,7 @@ const enroll = async () => {
 
         alert(response.data.message);
     } catch(error) {
-        alert("Gagal mendaftar event. Silakan ulangi kembali!");
+        alert("Gagal mendaftar event. Silakan ulangi kembali atau hubungi panitia");
         return [error, window.location.href = "leader-info.html"];
     }
 };
