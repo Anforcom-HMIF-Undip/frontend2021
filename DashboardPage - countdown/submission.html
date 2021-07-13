@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- style CSS -->
+    <link href="assets/css/dashboard.css" rel="stylesheet">
+
+    <!--Fontawesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <!-- Dashboard Utama START -->
+    <section class="sidebar d-lg-flex" id="wrapper">
+      <!-- sidebar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light flex-lg-row sidebar-wrapper sticky-top" id="sidebar-wrapper">
+        <div class="container-fluid d-flex flex-lg-column">
+          <img class="navbar-brand pt-lg-5 pb-2 px-lg-4" src="assets/images/logo.png" alt="logo" href="#">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-none d-lg-block garis"><hr></div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav d-flex flex-column flex-md-row flex-lg-column justify-content-md-center justif-content-lg-start align-items-center align-items-lg-start p-3">
+              <li class="nav-item px-4"><a class="main-btn rounded-one" href="terdaftar.html"><img class="pe-3 icons" src="assets/images/home.png" alt="home">Dashboard</a></li>
+              <li class="nav-item px-4"><a class="main-btn rounded-two" href="timeline.html"><img class="pe-4 icons" src="assets/images/calender.png" alt="timeline">Timeline</a></li>
+              <li class="nav-item px-4"><a class="main-btn rounded-two" href="http://anforcom.com"><img class="pe-3 icons" src="assets/images/globe.png" alt="main">Anforcom</a></li>
+              <li class="garis d-md-none d-lg-block"><hr></li>
+              <li class="nav-item px-4"><a class="main-btn rounded-two" href="http://anforcom.com"><img class="pe-3 icons" src="assets/images/exit.png" alt="logout">  Logout</a></li>
+            </ul>
+          </div>
+          <p class="d-none d-lg-block copyright">&copy Anforcom 2021</p>
+        </div>
+      </nav>
+      <!-- sidebar end -->
+
+      <!-- selamat datang wrapper-->
+      <div id="page-content-wrapper" class="content-wrapper">
+        <div class="container ps-5 pe-5 me-5">
+          <div class="row">
+            <div class="col-12">
+              <!-- isi -->
+              <h3 class="mt-4 mb-2">Pengumpulan Tugas</h3>
+              <p>UI/UX Competition</p>
+              <div class="mt-4 mx-2 card col-12">
+                <h3 style="font-size: 18px" class="pt-3 px-3">Nama Team</h3>
+                <p class="px-3">Tokek Belang</p>
+                <hr>
+                <h3 style="font-size: 18px" class="px-3">Nama Ketua</h3>
+                <p class="pb-3 px-3">Fikri Yusrihan</p>
+              </div>
+              <div class="card col-12  mx-2 my-3">
+                <div class="px-3 pb-3">
+                  <h3  style="font-size: 18px" class="mt-4 mb-2">Submit Tugas</h3>
+                  <p style="font-size: 14px; color: red">Deadline : 3 September 2021</p>
+                  <br> <input style="font-size: 12px" class="form-control-file" type="file" name="leader_ktm" required><br>
+                </div>
+              </div>
+              <ul class="mx-2 mt-4"><li><a class="main-btn daftar" href="#">Submit</a></li></ul>
+              <!-- isi -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Dashboard Utama END -->
+
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

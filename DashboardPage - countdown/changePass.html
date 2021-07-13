@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- auth CSS -->
+    <link rel="stylesheet" href="assets/css/auth.css">
+
+    <title>Change Password</title>
+  </head>
+
+  <body>
+    <section class="login" style="background-image: url('assets/images/background.png'); background-size: cover; background-repeat: no-repeat; height: 100vh;">
+      <div class="row">
+        <div class="login-form col-lg-7">
+          <h1 class="login-header">Change Password</h1>
+
+          <form onsubmit="return validateForm()">
+
+            <!--Current password-->
+            <label>Current Password</label>
+            <div class="form-row">
+              <div class="col-lg-7">
+                <input type="password" placeholder="********" class="form-control" id="pswd3" value="">
+              </div>
+              <span class="annotation" id="pw3Msg"></span>
+            </div>
+
+            <!--Input password-->
+            <label>New Password</label>
+            <div class="form-row">
+              <div class="col-lg-7">
+                <input type="password" placeholder="********" class="form-control" id="pswd1" value="">
+              </div>
+              <span class="annotation" id="pw1Msg"></span>
+            </div>
+
+            <!--Confirm password-->
+            <label>Confirm Password</label>
+            <div class="form-row">
+              <div class="col-lg-7">
+                <input type="password" placeholder="********" class="form-control" id="pswd2" value="">
+              </div>
+              <span class="annotation" id="pw2Msg"></span>
+            </div>
+
+            <!--Sign Up button-->
+            <div class="form-row">
+              <div class="col-lg-7">
+                <button type="submit" value="Submit" class="login-button">Change</button>
+              </div>
+            </div>
+
+          </form>
+
+        </div>
+        <div class="illustration col-lg-5">
+          <img src="assets/images/laptop-illustration.png" class="img-fluid" alt="" style="position: fixed; bottom: 0; right: 0;">
+        </div>
+      </div>
+    </section>
+
+    <script src="assets/js/change.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  </body>
+</html>
