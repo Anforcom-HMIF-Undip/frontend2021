@@ -2742,7 +2742,7 @@ hr {
 }
 
 .bg-coba2 {
-    background: url(/assets/img/bgcoba-2-1.png) !important;
+    background: url(../images/homepage/banner//bgcobaFAQ.png) !important;
     background-size: cover !important;
 
 }
@@ -3421,6 +3421,7 @@ hr {
 
         background: url(/assets/img/bgmobile-FAQ.png) !important;
         background-size: cover !important;
+        background-position-y: 35px !important;
     }
 
     .faq-area .faq-content .contact-form textarea#message {
@@ -3451,6 +3452,18 @@ hr {
         text-align: center !important;
         text-align-last: center !important;
     }
+}
+
+.fixedbg {
+    background-position: -200px -4px;
+}
+
+.testimonial-area .testimonial-block .client-info h4 {
+    color: whitesmoke;
+}
+
+.testimonial-area .testimonial-block .client-info span {
+    color: #FCB62B;
 }
 
 .slider-area .hero__caption p {
@@ -4433,8 +4446,9 @@ form.search-box .search-form a {
 
 .testimonial-area {
     position: relative;
-    background: url(/assets/img/bgcoba.png);
+    background: url(../images/homepage/banner/bgcoba.png);
     background-size: cover;
+    box-sizing: border-box !important;
 }
 
 .testimonial-area .testimonial-caption {
