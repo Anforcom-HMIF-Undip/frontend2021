@@ -1,244 +1,623 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+<html class="no-js" lang="zxx">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<head>
+  <meta charset="utf-8">
+  <title>Seminar | ANFORCOM 2021</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="anforcom,ANFORCOM,competitiveprogramming,hackaton,revealthesun,undip,anforcomundip,anforcom2021"
+    name="keywords">
+  <meta
+    content="One of the greatest IT event is finally back! Prepare yourself and get ready to be part of Anforcom 2021~! Be there or be square."
+    name="description">
+  <meta property="og:title" content="ANFORCOM 2021">
+  <meta property="og:image" content="./assets/img/logoOG.png">
+  <meta property="og:description"
+    content="One of the greatest IT event is finally back! Prepare yourself and get ready to be part of Anforcom 2021~! Be there or be square.">
+  <meta name="title" content="ANFORCOM 2021">
+  <meta name="description"
+    content="One of the greatest IT event is finally back! Prepare yourself and get ready to be part of Anforcom 2021~! Be there or be square.">
+  <!-- Favicons -->
+  <link href="./assets/img/logobaru.png" rel="icon">
+  <!-- CSS here -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets/css/slicknav.css">
+  <link rel="stylesheet" href="./assets/css/flaticon.css">
+  <link rel="stylesheet" href="./assets/css/animate.min.css">
+  <link rel="stylesheet" href="./assets/css/animate.css">
+  <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="./assets/css/themify-icons.css">
+  <link rel="stylesheet" href="./assets/css/slick.css">
+  <link rel="stylesheet" href="./assets/css/nice-select.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/seminar.css">
+  <!-- Icon Font Css -->
+  <link rel="stylesheet" href="./plugins/icofont/icofont.min.css">
+  <!-- Slick Slider  CSS -->
+  <link rel="stylesheet" href="./plugins/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="./plugins/slick-carousel/slick/slick-theme.css">
 
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+  <!-- magnific css -->
+  <link rel="stylesheet" href="./css/magnific.min.css">
+  <!-- Main Stylesheet -->
 
-    <!-- Local CSS -->
-    <link rel="stylesheet" href="assets/css/seminar.css"/>
+  <link rel="stylesheet" href="./style.css">
+</head>
 
-    <title>Seminar Anforcom</title>
-  </head>
-  <body>
-    <!-- Navbar Section Begin -->
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-      <div class="container px-4 px-lg-0 py-2">
-        <a class="navbar-brand" href="index.html">
-          <img
-            class="d-none d-lg-block"
-            src="./assets/images/lomba/anforcom-logo.png"
-            alt="anforcom-logo"/>
-          <img
-            class="d-lg-none"
-            src="./assets/images/lomba/logo-mobile.png"
-            alt="anforcom-logo"/>
-        </a>
-        <button
-          class="navbar-toggler align-self-end"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav mt-3 mt-lg-0 ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Competitions
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink">
-                <li>
-                  <a class="dropdown-item" href="BusinessIT.html"
-                    >Business Case Competition</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="UIUX.html"
-                    >UI/UX Design Competition</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="seminar.html">Seminar</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-bolder" href="login.html">Login</a>
-            </li>
-          </ul>
+<body style="background: #02081F;">
+  <!-- Preloader Start -->
+  <div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+      <div class="preloader-inner position-relative">
+        <div class="preloader-circle"></div>
+        <div class="preloader-img pere-text">
+          <img src="./assets/img/av.png" alt="">
         </div>
       </div>
-    </nav>
-    <!-- Navbar Section End -->
-
-      <!-- Hero Section Start-->
-      <section class="hero">
-        <div class="container px-4 px-lg-0 py-5">
-          <div class="row">
-            <div class="col-lg-6 mb-5 mb-lg-0">
-              <h1  data-aos="fade-right"
-                  data-aos-once="true"
-                  data-aos-offset="300"
-                  data-aos-easing="ease-in-sine"
-                  class="title mb-3 mb-lg-5 display-5">Seminar<br>Anforcom 2021</h1>
-              <p  data-aos="fade-right"
-                  data-aos-offset="300"
-                  data-aos-easing="ease-in-sine"
-                  class="description">Sebuah kegiatan dimana para peserta berdiskusi bersama dengan tujuan untuk menggapai sebuah insight baru tentang skill seorang Software Engineer untuk membuat generasi masa depan yang luar biasa. Seminar ini akan diadakan secara online dengan dipandu oleh seorang software engineer professional.</p>
-
-              <div
-                data-aos="fade-up"
-                data-aos-once="true"
-                data-aos-delay="500"
-                class="d-flex price mb-4">
-                <p class="me-4">Biaya Pendaftaran</p>
-                <div class="d-flex justify-content-center align-items-center bg-price rounded-pill">Rp200.000</div>
+    </div>
+  </div>
+  <!-- Preloader Start -->
+  <header>
+    <!-- Header Start -->
+    <div class="header-area header-transparent">
+      <div class="main-header">
+        <div class="header-bottom  header-sticky">
+          <div class="container-fluid">
+            <div class="row align-items-center">
+              <!-- Logo -->
+              <div class="col-xl-2 col-lg-1 col-md-1">
+                <div class="logo scrollto">
+                  <a href="index.html"><img src="./assets/img/logo/logo.png" alt=""></a>
+                </div>
+              </div>
+              <div class="col-xl-10 col-lg-11 col-md-11">
+                <!-- Main-menu -->
+                <div class="main-menu f-right d-none d-lg-block">
+                  <nav>
+                    <ul id="navigation" class="nav-menu">
+                      <li><a href="index.html" style="font-family: 'Work Sans', sans-serif !important;">Home</a>
+                      </li>
+                      <li><a href="#"
+                          style="padding-bottom: 15px !important;font-family: 'Work Sans', sans-serif !important;">Competitions</a>
+                        <ul class="submenu" style="background-color: #010E21;">
+                          <li><a href="BusinessIT.html"
+                              style="color: whitesmoke;font-family: 'Work Sans', sans-serif !important;font-size: small;">Business
+                              Case
+                              Competition</a>
+                          </li>
+                          <li><a href="UIUX.html"
+                              style="color: whitesmoke;font-family: 'Work Sans', sans-serif !important;">UI
+                              / UX
+                              Competition</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#" style="font-family: 'Work Sans', sans-serif !important;">Seminar</a>
+                      </li>
+                      <li><a href="error404.html" style="font-family: 'Work Sans', sans-serif !important;">Events</a>
+                      </li>
+                      <li><a href="login.html" style="font-family: 'Work Sans', sans-serif !important;">Login</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
               </div>
 
-              <div class="info d-lg-flex">
-                <a
-                  data-aos="fade-right"
-                  data-aos-once="true"
-                  data-aos-delay="700"
-                 class="text-decoration-none text-white" href="register.html">
-                  <div class="mb-3 mb-lg-0 me-lg-4 rounded d-flex align-items-center justify-content-center bg-signup">
-                    Daftar Sekarang
+              <!-- Mobile Menu -->
+              <div class="col-12">
+                <div class="mobile_menu d-block d-lg-none"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header End -->
+  </header>
+  <main>
+
+    <!-- Slider Area Start-->
+    <div class="slider-area pd-mobile slider-bg-compt ">
+      <div class="slider-active dot-style">
+        <div class="single-slider d-flex align-items-center slider-height ">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-7 col-md-9 ">
+                <div class="hero__caption">
+                  <h1 data-animation="fadeInLeft" data-delay=".3s"
+                    style="font-family: 'moholregular', sans-serif !important;font-size: 56px ;">
+                    Seminar
+                    <br>
+                    Anforcom 2021 </h1>
+                  <p style="font-size: 18px ;font-family: 'Work Sans', sans-serif !important;"
+                    data-animation="fadeInLeft" data-delay=".6s">
+                    Sebuah kegiatan dimana para peserta berdiskusi bersama dengan tujuan untuk
+                    menggapai sebuah insight baru tentang skill seorang Software Engineer untuk
+                    membuat generasi masa depan yang luar biasa. Seminar ini akan diadakan secara
+                    online dengan dipandu oleh seorang software engineer professional.
+                  </p>
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-center">
+                      <p class="me-4"
+                        style="font-size: 18px !important;font-family: 'Work Sans', sans-serif !important;"
+                        data-animation="bounceInLeft" data-delay=".7s">Biaya Pendaftaran</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6  col-sm-6 col-6  ">
+
+                      <button
+                        style=" font-size: 18px !important;font-family: 'Work Sans' , sans-serif
+                                            !important;border-radius: 20px !important;padding:5px 20px;background-color: #353B52;border: none !important;position: relative;right:  140px !important;top: -3px;"
+                        data-animation="bounceInLeft" data-delay=".7s">Rp200.000</button>
+                    </div>
                   </div>
-                </a>
+
+                  <!-- Slider btn -->
+                  <div class="slider-btns">
+                    <!-- Hero-btn -->
+                    <a data-animation="fadeInLeft" data-delay="1s" href="register.html" class="btn btn-one btn-primary"
+                      style="border:#105395 solid 1.2px !important;text-transform: none !important;font-family: 'Work Sans', sans-serif !important;">Daftar
+                      Sekarang</a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="hero__img3  d-lg-block f-right">
+                  <img src="./assets/img/gallery/seminar.png" alt="" data-animation="fadeInRight" data-delay="1s">
+                </div>
               </div>
             </div>
-            <div
-            data-aos="zoom-in-up"
-            data-aos-once="true"
-            data-aos-delay="200"
-            class="col-lg-6 d-flex justify-content-center justify-content-lg-end">
-              <img class="img-fluid d-none d-lg-inline" src="./assets/images/lomba/seminar.png" alt="business-illustration">
-              <img class="img-fluid d-lg-none" src="./assets/images/lomba/seminar-mobile.png" alt="business-illustration">
+          </div>
+        </div>
+        <div class="single-slider d-flex align-items-center slider-height ">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-7 col-md-9 ">
+                <div class="hero__caption">
+                  <h1 data-animation="fadeInLeft" data-delay=".3s"
+                    style="font-family: 'moholregular', sans-serif !important;font-size: 56px ;">
+                    Seminar
+                    <br>
+                    Anforcom 2021 </h1>
+                  <p style="font-size: 18px ;font-family: 'Work Sans', sans-serif !important;"
+                    data-animation="fadeInLeft" data-delay=".6s">
+                    Sebuah kegiatan dimana para peserta berdiskusi bersama dengan tujuan untuk
+                    menggapai sebuah insight baru tentang skill seorang Software Engineer untuk
+                    membuat generasi masa depan yang luar biasa. Seminar ini akan diadakan secara
+                    online dengan dipandu oleh seorang software engineer professional.
+                  </p>
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-center">
+                      <p class="me-4"
+                        style="font-size: 18px !important;font-family: 'Work Sans', sans-serif !important;"
+                        data-animation="bounceInLeft" data-delay=".7s">Biaya Pendaftaran</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6  col-sm-6 col-6  ">
+
+                      <button
+                        style=" font-size: 18px !important;font-family: 'Work Sans' , sans-serif
+                                            !important;border-radius: 20px !important;padding:5px 20px;background-color: #353B52;border: none !important;position: relative;right:  140px !important;top: -3px;"
+                        data-animation="bounceInLeft" data-delay=".7s">Rp200.000</button>
+                    </div>
+                  </div>
+
+                  <!-- Slider btn -->
+                  <div class="slider-btns">
+                    <!-- Hero-btn -->
+                    <a data-animation="fadeInLeft" data-delay="1s" href="register.html" class="btn btn-one btn-primary"
+                      style="border:#105395 solid 1.2px !important;text-transform: none !important;font-family: 'Work Sans', sans-serif !important;">Daftar
+                      Sekarang</a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="hero__img2  d-lg-block f-right">
+                  <img src="./assets/img/gallery/seminar.png" alt="" data-animation="fadeInRight" data-delay="1s">
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- Hero Section End-->
+        <div class="single-slider d-flex align-items-center slider-height ">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-7 col-md-9 ">
+                <div class="hero__caption">
+                  <h1 data-animation="fadeInLeft" data-delay=".3s"
+                    style="font-family: 'moholregular', sans-serif !important;font-size: 56px ;">
+                    Seminar
+                    <br>
+                    Anforcom 2021 </h1>
+                  <p style="font-size: 18px ;font-family: 'Work Sans', sans-serif !important;"
+                    data-animation="fadeInLeft" data-delay=".6s">
+                    Sebuah kegiatan dimana para peserta berdiskusi bersama dengan tujuan untuk
+                    menggapai sebuah insight baru tentang skill seorang Software Engineer untuk
+                    membuat generasi masa depan yang luar biasa. Seminar ini akan diadakan secara
+                    online dengan dipandu oleh seorang software engineer professional.
+                  </p>
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-center">
+                      <p class="me-4"
+                        style="font-size: 18px !important;font-family: 'Work Sans', sans-serif !important;"
+                        data-animation="bounceInLeft" data-delay=".7s">Biaya Pendaftaran</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6  col-sm-6 col-6  ">
 
-    <!-- Speakers Section Start -->
-    <section class="speaker">
-      <div class="container text-center x-4 px-lg-0 py-5">
-        <h3 class="mb-4 title">Our Speakers</h3>
-        <p class="mb-5 description">Pembicara seminar Anforcom 2021<br>merupakan seorang Software Engineer<br>Professional dengan berbagai pengalaman</p>
-        <div class="row d-flex justify-content-center gap-lg-3 align-items-center flex-column flex-xl-row">
-          <div class="col-6">
-            <ul>
-              <li class="speaker1 my-5 px-5"><img class="img-fluid" src="assets/images/speaker2.png" alt="speaker1"></li>
-              <li class="speaker2 my-5 px-5"><img class="img-fluid" src="assets/images/speaker1.png" alt="speaker2"></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Speakers Section End -->
+                      <button
+                        style=" font-size: 18px !important;font-family: 'Work Sans' , sans-serif
+                                            !important;border-radius: 20px !important;padding:5px 20px;background-color: #353B52;border: none !important;position: relative;right:  140px !important;top: -3px;"
+                        data-animation="bounceInLeft" data-delay=".7s">Rp200.000</button>
+                    </div>
+                  </div>
 
-    <section id="sponsor-medpar">
-      <div class="row">
-        <!-- judul sponsor -->
-        <div class="sponsor col-lg-6">
-          <div class="px-5">
-            <p class="mb-4 medpar-title">Sponsored By :</p>
-          </div>
-          <!-- <div class="container-fluid">
-            <div class="row">
-              <div class="logo col-lg-6 col-sm-6"><a href=""><img class="logo-sponsor-1" src="assets/images/homepage/sponsor-medpart/google.png" alt=""></a></div>
-              <div class="logo col-lg-6 col-sm-6"><a href=""><img class="logo-sponsor-2" src="assets/images/homepage/sponsor-medpart/microsoft.png" alt=""></a></div>
+                  <!-- Slider btn -->
+                  <div class="slider-btns">
+                    <!-- Hero-btn -->
+                    <a data-animation="fadeInLeft" data-delay="1s" href="register.html" class="btn btn-one btn-primary"
+                      style="border:#105395 solid 1.2px !important;text-transform: none !important;font-family: 'Work Sans', sans-serif !important;">Daftar
+                      Sekarang</a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="hero__img2  d-lg-block f-right">
+                  <img src="./assets/img/gallery/seminar.png" alt="" data-animation="fadeInRight" data-delay="1s">
+                </div>
+              </div>
             </div>
-            <div class="row">
-              <div class="logo col-lg-6 col-sm-6"><a href=""><img class="logo-sponsor-3" src="assets/images/homepage/sponsor-medpart/apple.png" alt=""></a></div>
-              <div class="logo col-lg-6 col-sm-6"><a href=""><img class="logo-sponsor-4" src="assets/images/homepage/sponsor-medpart/ibm.png" alt=""></a></div>
-            </div>
-          </div> -->
-        </div>
-        <div class="medpar col-lg-6">
-          <div class="px-5">
-            <p class="mb-4 medpar-title">Media Patners :</p>
-          </div>
-          <div class="medpar-logo">
-            <a href="https://sejutacita.id/"><img src="assets/images/homepage/sponsor-medpart/sejuta.png" class="logo-medpar-1" alt=""></a>
           </div>
         </div>
       </div>
-      <div class="support row">
-        <div class="px-5">
-          <p class="mb-4 support-title">Supported By :</p>
-        </div>
-        <div class="support-logo ps-5 py-4 col-lg-1 col-sm-3">
-          <img src="assets/images/homepage/sponsor-medpart/undip.png" alt="">
-        </div>
-        <div class="support-logo px-4 py-4 col-lg-1 col-sm-3">
-          <img src="assets/images/homepage/sponsor-medpart/hmif.png" alt="">
-        </div>
+      <!-- Slider Shape -->
+      <div class="slider-shape d-none d-lg-block">
+        <img class="slider-shape1 wow bounce-animate" data-wow-delay="0.3s " src="
+                    ./assets/img/hero/top-left-shape.png" alt="">
+        <img class="slider-shape2  wow bounce-animate" data-wow-delay="0.3s " src="
+                    ./assets/img/hero/right-top-shape.png" alt="">
+        <img class="slider-shape3  wow bounce-animate" data-wow-delay="0.3s" src="
+                    ./assets/img/hero/left-botom-shape.png" alt="">
       </div>
-    </section>
+      <!-- slider Social -->
+      <div class="slider-social d-none d-md-block">
+        <a href="#"><i class="fab fa-facebook-f wow bounceInRight" data-wow-delay="0.8s"></i></a>
+        <a href="https://twitter.com/Anforcom" target="_blank" rel="noopener noreferrer"><i
+            class="fab fa-twitter wow bounceInRight" data-wow-delay="0.9s"></i></a>
+        <a href="#"><i class="fas fa-globe wow bounceInRight" data-wow-delay="1s"></i></a>
+        <a href="https://www.instagram.com/anforcom/" target="_blank" rel="noopener noreferrer"><i
+            class="fab fa-instagram wow bounceInRight" data-wow-delay="1.1s"></i></a>
+      </div>
 
-    <!-- Footer Section Start -->
-    <footer class="footer">
+    </div>
+    <!-- Slider Area End -->
+    <!--All startups Start -->
+
+    <!--All startups End -->
+    <!--Services Area Start -->
+    <div class="services-area juara bg-hadiah fixed-service-comp padd-bott-serve section-paddingrandom fix pb-45">
       <div class="container">
-        <div class="row px-4 px-lg-0">
-          <div class="col-lg-4">
-            <h3>Competition</h3>
-            <ul class="list-unstyled">
-              <li>
-                <a href="#">Business Case Competition</a>
-              </li>
-              <li>
-                <a href="UIUX.html">UI/UX Design Competition</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-4 my-4 my-lg-0">
-            <h3>Event</h3>
-            <ul class="list-unstyled">
-              <li>
-                <a href="BusinessIT.html">Seminars</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-4">
-            <div class="d-flex flex-column align-items-center align-items-lg-end">
-              <div class="mt-5 mt-lg-0">
-                <a href="index.html"><img src="./assets/images/lomba/footer-anforcom-logo.png" alt="anforcom-logo" /></a>
-              </div>
-              <div class="contact d-flex mb-5 mb-lg-3">
-                <a href="https://twitter.com/Anforcom" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
-                <a href="http://line.me/ti/p/~@gsy5063l" target="_blank" rel="noopener noreferrer"><i class="fab fa-line"></i></a>
-                <a href="https://www.instagram.com/anforcom/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-              </div>
-              <div class="address text-center text-lg-end text-white">
-                <p>
-                  Gedung E Lantai 3<br>
-                  Fakultas Sains dan Matematika<br>
-                  Universitas Diponegoro<br>
-                  Tembalang, Semarang
-                </p>
-              </div>
+        <!-- Section Tittle -->
+        <div class="row">
+          <div class="col-lg-12 wow zoomIn" data-wow-delay="0.1s">
+            <div class="section-tittle text-center mb-100">
+              <span>
+                <h2
+                  style="color: whitesmoke;font-family: 'moholregular', sans-serif !important;text-transform:none !important;font-size: 42px !important;">
+                  Our Speakers
+                </h2>
+              </span>
+
+              <h3 style="color: whitesmoke !important;font-family: 'Work Sans', sans-serif !important;font-size:large;">
+                Pembicara seminar Anforcom 2021 <br>
+                merupakan seorang Software Engineer <br>
+                Professional dengan berbagai pengalaman.</h3>
             </div>
           </div>
         </div>
-        <p class="py-3 text-center text-white" style="margin: 0">Copyright &copy; Anforcom 2021</p>
-      </div>
-    </footer>
-    <!-- Footer Section End -->
+        <div
+          class="row d-flex justify-content-center gap-lg-3 align-items-center flex-column flex-xl-row text-center align-items-center"
+          style="margin-left: 5px;">
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 wow fadeInRight" data-wow-delay="0.1s">
+            <img class="img-fluid" src="./assets/img/speakers/speaker2.png" alt="speaker1">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 wow fadeInLeft kanandikit" data-wow-delay="0.1s">
+            <img class="img-fluid" src="./assets/img/speakers/speaker1.png" alt="speaker1">
+          </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  </body>
+        </div>
+      </div>
+    </div>
+    <!-- Services Area End -->
+    <!-- Blog Area Start -->
+
+    <!-- Blog Area End -->
+
+
+    <!-- work company Start-->
+
+    <!-- work company End-->
+    <!-- Our pricing Start -->
+
+    <!-- Our pricing End -->
+    <!-- Testimonial Start -->
+
+    <!-- Testimonial End -->
+    <!-- Search domain Start -->
+    <section class=" search-domain-area section-bg pt-100 pb-100 wow fadeIn" data-wow-delay="0.1s"
+      data-background="./assets/img/banner/shape.png">
+      <div class="container  ">
+        <div class=" row align-items-end mb-80">
+          <div class="col-xl-8">
+            <!-- Section Tittle -->
+            <div class="section-tittle section-tittle2">
+              <span></span>
+              <h2 class="wow zoomIn" data-wow-delay="0.2s" style="font-family: 'moholregular', sans-serif !important;">
+                Prepare
+                yourself, <br>
+                and get ready.</h2>
+              <h3 class="wow zoomIn" data-wow-delay="0.3s"
+                style="font-family: 'Work Sans', sans-serif !important; color: whitesmoke;font-size: large;margin-top: 15px;">
+                Daftar
+                Anforcom 2021
+                sekarang juga!.</h3> <br><br>
+              <a href="register.html" class="btn wow zoomIn" data-wow-delay="0.4s" style=" border:#105395 solid 1.4px !important;text-transform: none
+                                !important;font-family: 'Work Sans' , sans-serif !important;">Daftar
+                Sekarang</a>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <!-- Search Box -->
+
+            <!-- Search Box End-->
+          </div>
+        </div>
+        <!-- Domain List -->
+        <div class="row">
+
+        </div>
+        <!-- Domain List  End-->
+      </div>
+    </section>
+    <!-- Search domain End -->
+
+    <!-- Support Area Start -->
+    <section class="support-area section-bg pt-150 pb-150">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="sponsor col-lg-6 col-md-6 col-sm-12">
+            <div class="medpar-title wow fadeInUp " data-wow-delay="0.1s">
+              <p style="font-family: 'moholregular', sans-serif !important;color: whitesmoke;">
+                Sponsored
+                By :</p>
+            </div>
+            <!-- gambar logo sponsor-->
+
+            <div class="row">
+              <div class="col-lg-4 col-sm-4">
+                <div class="logo wow fadeIn" data-wow-delay="0.2s"><a href=""><img class="logo-sponsor-1" src=""
+                      alt=""></a></div>
+                <div class="logo wow fadeIn dnone" data-wow-delay="0.3s"><a href=""><img class="logo-sponsor-2" src=""
+                      alt=""></a>
+                </div>
+              </div>
+              <div class="col-lg-8 col-sm-8">
+                <div class="logo wow fadeIn" data-wow-delay="0.4s"><a href=""><img class="logo-sponsor-3" src=""
+                      alt=""></a></div>
+                <div class="logo wow fadeIn dnone" data-wow-delay="0.5s"><a href=""><img class="logo-sponsor-4" src=""
+                      alt=""></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="medpar col-lg-6 col-md-6 col-sm-12">
+            <div class="medpar-title wow fadeInUp" data-wow-delay="0.1s">
+              <p style="font-family: 'moholregular', sans-serif !important;color: whitesmoke;">
+                Media
+                Patners :</p>
+            </div>
+            <!-- gambar logo medpar -->
+            <div class="medpar-logo wow fadeIn" data-wow-delay="0.92s"><a href="https://www.sejutacita.id"
+                target="_blank"><img class="logo-medpar-1" src="./assets/img/sponsor-medpart/sejuta.png" alt=""></a>
+            </div>
+
+          </div>
+
+
+        </div>
+        <br>
+        <br>
+        <div class="row align-items-center justify-content-between">
+          <div class="sponsor col-lg-6 col-md-6 col-sm-12">
+            <div class="medpar-title wow fadeInUp" data-wow-delay="0.1s">
+              <p style="font-family: 'moholregular', sans-serif !important;color: whitesmoke;">
+                Supported
+                By :</p>
+            </div>
+            <!-- gambar logo sponsor-->
+
+            <div class="row">
+              <div class="col-lg-2 col-md-2 col-sm-6 wow fadeIn" data-wow-delay="0.62s">
+                <div class=" "><a href="https://www.undip.ac.id" target="_blank"><img
+                      src="./assets/img/sponsor-medpart/undip.png" alt=""></a>
+                </div>
+
+              </div>
+              <div class="hmif col-lg-2 col-md-2 col-sm-6 wow fadeIn" data-wow-delay="0.72s">
+                <div class=" "><a href="https://hm.if.fsm.undip.ac.id/" target="_blank"><img
+                      src=" ./assets/img/sponsor-medpart/hmif.png" alt=""></a>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>
+    <!-- Support Area End -->
+
+  </main>
+  <footer>
+    <!-- Footer Start-->
+    <div class="footer-area wow fadeIn" data-wow-delay="0.6s">
+      <div class="container">
+        <div class="footer-top footer-padding">
+          <div class="row justify-content-between">
+
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4
+                    style="font-family: 'moholregular', sans-serif !important;;font-size: larger;letter-spacing: 1px;">
+                    Competitions</h4>
+                  <ul>
+                    <li><a href="BusinessIT.html"
+                        style="font-family: 'Work Sans', sans-serif !important;color: white;">Business
+                        Case
+                        Competition</a></li>
+                    <li><a href="UIUX.html" style="font-family: 'Work Sans', sans-serif !important;color: white;">UI/UX
+                        Design Competition</a></li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-7 col-md-4 col-sm-6">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4
+                    style="font-family: 'moholregular', sans-serif !important;;font-size: larger;letter-spacing: 1px;">
+                    Events</h4>
+                  <ul>
+                    <li><a href="seminar.html"
+                        style="font-family: 'Work Sans', sans-serif !important;color: white;">Seminars</a>
+                    </li>
+                    <li><a href="#" style="font-family: 'Work Sans', sans-serif !important;color: white;">Closing</a>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+              <div class="d-flex flex-column align-items-center align-items-lg-end">
+                <div class="logo mt-5 mt-lg-0">
+                  <a href="index.html"><img src="./assets/img/logo/footerlogo.png" alt="anforcom-logo" /></a>
+                </div>
+                <div class="contact d-flex mb-5 mb-lg-3">
+                  <a href="https://twitter.com/Anforcom" target="_blank" rel="noopener noreferrer"><i
+                      class="fab fa-twitter wow  bounceInRight" data-wow-delay="0.4s"></i></a>
+                  <a href="http://line.me/ti/p/~@gsy5063l" target="_blank" rel="noopener noreferrer "><i
+                      class="fab fa-line wow bounceInRight" data-wow-delay="0.52s"></i></a>
+                  <a href="https://www.instagram.com/anforcom/" target="_blank" rel="noopener noreferrer"><i
+                      class="fab fa-instagram wow bounceInRight" data-wow-delay="0.62s"></i></a>
+                </div>
+                <div class="address text-center text-lg-end text-white">
+                  <p style="font-family: 'Work Sans', sans-serif !important;color: white;text-align: right;">
+                    Gedung E Lantai 3<br>
+                    Fakultas Sains dan Matematika<br>
+                    Universitas Diponegoro<br>
+                    Tembalang, Semarang
+                  </p>
+                </div>
+                <!-- <div class="single-footer-caption mb-50">
+                                
+                            </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="row d-flex justify-content-between align-items-center">
+              <div class="col-xl-12 col-lg-12  " style="text-align: center;">
+                <div class="footer-copy-right">
+                  <p style="font-family: 'Work Sans', sans-serif !important;color: white;">
+
+                    Copyright © Anforcom <script>
+                      document.write(new Date().getFullYear());
+                    </script>
+
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End-->
+  </footer>
+  <!-- Scroll Up -->
+  <div id="back-top">
+    <a title="Go to Top" href="#"> <i class="fa fa-chevron-up"></i></a>
+  </div>
+
+
+  <!-- JS here -->
+
+  <!-- All JS Custom Plugins Link Here here -->
+  <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+  <script src="./assets/js/easing/easing.min.js"></script>
+
+  <!-- Jquery, Popper, Bootstrap -->
+  <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <!-- Jquery Mobile Menu -->
+  <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+  <!-- Jquery Slick , Owl-Carousel Plugins -->
+  <script src="./assets/js/owl.carousel.min.js"></script>
+  <script src="./assets/js/slick.min.js"></script>
+  <!-- One Page, Animated-HeadLin -->
+  <script src="./assets/js/wow.min.js"></script>
+  <script src="./assets/js/wow.js"></script>
+  <script src="./assets/js/animated.headline.js"></script>
+  <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+  <!-- Nice-select, sticky -->
+  <script src="./assets/js/jquery.nice-select.min.js"></script>
+  <script src="./assets/js/jquery.sticky.js"></script>
+
+  <!-- contact js -->
+  <script src="./assets/js/contact.js"></script>
+  <script src="./assets/js/jquery.form.js"></script>
+  <script src="./assets/js/jquery.validate.min.js"></script>
+  <script src="./assets/js/mail-script.js"></script>
+  <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+  <!-- Jquery Plugins, main Jquery -->
+  <script src="./assets/js/plugins.js"></script>
+  <script src="./assets/js/main.js"></script>
+
+  <!-- Slick Slider -->
+  <script src="./plugins/slick-carousel/slick/slick.min.js"></script>
+
+  <!-- Counterup -->
+  <script src="./plugins/counterup/jquery.waypoints.min.js"></script>
+  <script src="./plugins/shuffle/shuffle.min.js"></script>
+  <script src="./plugins/counterup/jquery.counterup.min.js"></script>
+
+  <!-- Contact Javascript File -->
+  <script src="./mail/jqBootstrapValidation.min.js"></script>
+  <script src="./mail/contact.js"></script>
+
+  <!-- js semi-main -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- meanmenu js -->
+  <script src="./assets/js/jquery.meanmenu.js"></script>
+
+  <!-- Form validator js -->
+  <script src="./assets/js/form-validator.min.js"></script>
+
+  <!-- timeline js -->
+  <script src="./assets/js/Competitions/timelineBusiness.js"></script>
+
+</body>
+
 </html>
