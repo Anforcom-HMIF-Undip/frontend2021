@@ -3454,6 +3454,18 @@ hr {
     }
 }
 
+.fixedbg {
+    background-position: -200px -4px;
+}
+
+.testimonial-area .testimonial-block .client-info h4 {
+    color: whitesmoke;
+}
+
+.testimonial-area .testimonial-block .client-info span {
+    color: #FCB62B;
+}
+
 .slider-area .hero__caption p {
     margin-bottom: 54px;
     padding-right: 155px;
