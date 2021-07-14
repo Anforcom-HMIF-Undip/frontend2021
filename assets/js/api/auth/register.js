@@ -67,14 +67,14 @@ const register = async () => {
 
         if (response.data.status === "SUCCESS") {
             alert("Register berhasil!");
-            return window.location.href = config.local_frontend_login;
+            window.location.replace(config.local_frontend_login);
         }
 
         const errMessage = response.data.message;
-        alert(`${errMessage}. Silakan ulangi kembali`);
+        alert(`${errMessage}`);
     } catch(error) {
         alert("Register gagal. Silakan ulangi kembali atau hubungi panitia");
-        return [error, window.location.replace(config.local_frontend_register)];
+        return window.location.assign(config.local_frontend_register);
     }
 }
 
