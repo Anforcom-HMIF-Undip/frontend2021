@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+
+/* font mohol */
+@font-face {
+    font-family: 'moholregular';
+    src: url(../fonts/mohol-regular-webfont.woff) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.login-form form {
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+.login-form label {
+    margin-top: 15px;
+
+    font-weight: 500;
+    font-size: large;
+    color: whitesmoke;
+}
+
+.login-button {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 30%;
+    background-color: #105395;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    transition: 1s background-color;
+}
+
+.login-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #105395;
+    font-size: large;
+}
+
+.ask-password {
+    margin-top: 30px;
+    transition: 1s color;
+    margin-bottom: 0px;
+
+}
+
+.ask-password a:hover,
+.ask-account a:hover {
+    color: #105395 !important;
+
+}
+
+.ask-password a,
+.ask-account a {
+    color: #56ABFF !important;
+
+}
+
+.ask-account {
+    margin-top: 25px;
+    transition: 1s color;
+    margin-bottom: 0px;
+
+}
