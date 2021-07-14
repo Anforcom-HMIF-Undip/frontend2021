@@ -25,14 +25,14 @@ Frontend repository for Anforcom 2021
 - :white_check_mark: Responsive dashboard (alvin)
 - :white_check_mark: hapus agenda di dashboard
 - :white_check_mark: hide sponsor google dkk
-14. contact sebelah FAQ dashboard
+- :white_check_mark: contact sebelah FAQ dashboard
 
 ===================================================
 # (( tanya Acara/Materi ))
 
 - :white_check_mark: tentang anforcom ( tanya acara )
 12. FAQ ( 5 pertanyaan 5 jawaban) ( tanya acara/materi )
-13. Apa kata mereka ( kata² singkat penjelas judul, kurang kak rafly, ka Risang(icang gamau lagi cari pengganti), kalo mo nambah gpp) ( tanya acara/materi )
+- :white_check_mark: Apa kata mereka ( kata² singkat penjelas judul, kurang kak rafly, ka Risang(icang gamau lagi cari pengganti), kalo mo nambah gpp) ( tanya acara/materi )
 
 # (( tanya dekdok ))
 - :white_check_mark: Custom error page 404?
