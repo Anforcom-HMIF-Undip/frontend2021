@@ -54,10 +54,10 @@
             <div class="col-12">
               <!-- isi -->
               <h3 class="mt-4 mb-2">Form Pendaftaran</h3>
-              <p style="font-size: 14px;">UI/UX Competition</p>
+              <p style="font-size: 14px;" id="event-name"></p>
               <div class="mt-4 mx-2 card col-12">
                 <form class="form-daftar mx-3 my-3" action="" method="post">
-                  <h3 style="font-size: 16px; font-weight: 500" class="">Anggota 1</h3>
+                  <h3 style="font-size: 16px; font-weight: 500" class="">Data diri</h3>
                   <div class="mt-3">
                     <div class="input-group">
                       <div class="input-group-prepend mt-1">
@@ -65,27 +65,17 @@
                           <i class="fa fa-user-plus"></i>
                         </span>
                       </div>
-                      <input class="ms-2 form-control" style="font-size: 14px; height: 32px; border-radius: 5px" id="name1" type="text" name="name1" placeholder="Nama Anggota 1" value="">
+                      <input class="ms-2 form-control" style="font-size: 14px; height: 32px; border-radius: 5px" id="name" type="text" name="name1" placeholder="Nama" value="">
                     </div>
                   </div>
                   <div class="mt-3">
                     <div class="input-group">
                       <div class="input-group-prepend mt-1">
                         <span class="input-group-text">
-                          <i class="fa fa-id-card"></i>
+                          <i class="fa fa-university"></i>
                         </span>
                       </div>
-                      <input class="ms-2 form-control" style="font-size: 14px; height: 32px; border-radius: 5px" id="nim1" type="text" name="nim1" placeholder="NIM Anggota 1" value="">
-                    </div>
-                  </div>
-                  <div class="mt-3">
-                    <div class="input-group">
-                      <div class="input-group-prepend mt-1">
-                        <span class="input-group-text">
-                          <i class="fa fa-at"></i>
-                        </span>
-                      </div>
-                      <input class="ms-2 form-control" style="font-size: 14px; height: 32px; border-radius: 5px" id="email1" type="text" name="email1" placeholder="Email Anggota 1" value="">
+                      <input class="ms-2 form-control" style="font-size: 14px; height: 32px; border-radius: 5px" id="univ" type="text" name="university" placeholder="Institusi" value="" required>
                     </div>
                   </div>
                   <div class="mt-3">
@@ -95,62 +85,13 @@
                           <i class="fa fa-phone"></i>
                         </span>
                       </div>
-                      <input class="ms-2 form-control" style="font-size: 14px; height: 32px; border-radius: 5px" id="hp1" type="text" name="hp1" placeholder="Nomor HP Anggota 1" value="">
+                      <input class="ms-2 form-control" style="font-size: 14px; height: 32px; border-radius: 5px" id="hp" type="text" name="hp1" placeholder="Nomor HP" value="">
                     </div>
                   </div>
                   <br>
-                  <label style="font-size: 14px" for="">Scan Kartu Tanda Mahasiswa 1 <small>(.png/.jpg)</small></label>
-                  <br>
-                  <input style="font-size: 12px" class="form-control-file" type="file" name="leader_ktm" required><br>
-                  <div class="my-5"></div>
-                  <h3 style="font-size: 16px; font-weight: 500" class="">Anggota 2</h3>
-                  <div class="mt-3">
-                    <div class="input-group">
-                      <div class="input-group-prepend mt-1">
-                        <span class="input-group-text">
-                          <i class="fa fa-user-plus"></i>
-                        </span>
-                      </div>
-                      <input class="ms-2 form-control" style="font-size: 14px; height: 32px; border-radius: 5px" id="name2" type="text" name="name2" placeholder="Nama Anggota 2" value="">
-                    </div>
-                  </div>
-                  <div class="mt-3">
-                    <div class="input-group">
-                      <div class="input-group-prepend mt-1">
-                        <span class="input-group-text">
-                          <i class="fa fa-id-card"></i>
-                        </span>
-                      </div>
-                      <input class="ms-2 form-control" style="font-size: 14px; height: 32px; border-radius: 5px" id="nim2" type="text" name="nim2" placeholder="NIM Anggota 2" value="">
-                    </div>
-                  </div>
-                  <div class="mt-3">
-                    <div class="input-group">
-                      <div class="input-group-prepend mt-1">
-                        <span class="input-group-text">
-                          <i class="fa fa-at"></i>
-                        </span>
-                      </div>
-                      <input class="ms-2 form-control" style="font-size: 14px; height: 32px; border-radius: 5px" id="email2" type="text" name="email2" placeholder="Email Anggota 2" value="">
-                    </div>
-                  </div>
-                  <div class="mt-3">
-                    <div class="input-group">
-                      <div class="input-group-prepend mt-1">
-                        <span class="input-group-text">
-                          <i class="fa fa-phone"></i>
-                        </span>
-                      </div>
-                      <input class="ms-2 form-control" style="font-size: 14px; height: 32px; border-radius: 5px" id="hp2" type="text" name="hp2" placeholder="Nomor HP Anggota 2" value="">
-                    </div>
-                  </div>
-                  <br>
-                  <label style="font-size: 14px" for="">Scan Kartu Tanda Mahasiswa 2 <small>(.png/.jpg)</small></label>
-                  <br>
-                  <input style="font-size: 12px" class="form-control-file" type="file" name="leader_ktm" required>
                 </form>
               </div>
-              <ul class="mx-2 mt-4"><li><a class="main-btn daftar" href="terdaftar.html">Lanjutkan</a></li></ul>
+              <ul class="mx-2 mt-4"><li><a class="main-btn daftar" href="terdaftar.html" id="daftar-btn">Daftar</a></li></ul>
               <!-- isi -->
 
             </div>
@@ -166,5 +107,6 @@
     <script src="https://unpkg.com/axios@0.21.1/dist/axios.min.js"></script>
     <script type="module" src="assets/js/config/config.js"></script>
     <script type="module" src="assets/js/api/auth/logout.js"></script>
+    <script type="module" src="assets/js/api/peserta/enrollSeminar.js"></script>
   </body>
 </html>

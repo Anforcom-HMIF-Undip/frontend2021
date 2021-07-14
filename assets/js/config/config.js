@@ -35,6 +35,7 @@ const config = {
     "local_frontend_dashboard" : `${local_frontend}/dashboard.html`,
     "local_frontend_terdaftar" : `${local_frontend}/terdaftar.html`,
     "local_frontend_pembayaran" : `${local_frontend}/pembayaran.html`,
+    "local_frontend_submission" : `${local_frontend}/submission.html`,
 };
 
 export default config;

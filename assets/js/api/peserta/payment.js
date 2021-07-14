@@ -1,7 +1,7 @@
 import config from "../../config/config.js";
 
 const tokenAnforcom = await Cookies.get()["token-anforcom"];
-const event = sessionStorage.getItem('event');
+const bayarEvent = sessionStorage.getItem('bayar-event');
 
 const payment = async () => {
     const bukti = document.getElementById("upload-payment");
@@ -15,7 +15,7 @@ const payment = async () => {
     formData.append('file', bukti.files[0]);
 
     try {
-        const response = await axios.post(`${config.local_upload_transfer}/${event}`, formData, { // TODO: ${event} error, cari tahu konek linknya
+        const response = await axios.post(`${config.local_upload_transfer}/${bayarEvent}`, formData, { // TODO: ${event} error, cari tahu konek linknya
             headers : {
                 Authorization : `Bearer ${tokenAnforcom}`,
                 'Content-Type' : 'multipart/form-data'
@@ -23,6 +23,7 @@ const payment = async () => {
         });
 
         if (response.data.status === "SUCESS") {
+            alert(response.data.message);
             return window.location.replace(config.local_frontend_terdaftar);
         }
 

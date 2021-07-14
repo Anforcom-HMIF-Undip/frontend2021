@@ -18,7 +18,7 @@ const user = async () => {
         });
 
         if (response.data.status === "SUCCESS") {
-            userName = response.data.payload.name;
+            userName = response.data.payload[0].user.name;
         }
 
     } catch(error) {
@@ -53,17 +53,49 @@ await events();
 
 userName = document.getElementById("uname").innerHTML = userName;
 
+/* Tombol bayar dan daftar */
+document.getElementById("bayar-uiux").addEventListener("click", (event) => {
+    event.preventDefault();
+    sessionStorage.setItem('bayar-event', 'uiux');
+    window.location.assign(config.local_frontend_pembayaran);
+});
+
+document.getElementById("bayar-bisnis").addEventListener("click", (event) => {
+    event.preventDefault();
+    sessionStorage.setItem('bayar-event', 'bussinessit');
+    window.location.assign(config.local_frontend_pembayaran);
+});
+
+document.getElementById("bayar-seminar").addEventListener("click", (event) => {
+    event.preventDefault();
+    sessionStorage.setItem('bayar-event', 'seminar');
+    window.location.assign(config.local_frontend_pembayaran);
+});
+
+/* Tombol submit tugas */
+document.getElementById("submit-uiux").addEventListener("click", (event) => {
+    event.preventDefault();
+    sessionStorage.setItem('submit-event', 'uiux');
+    window.location.assign(config.local_frontend_submission);
+});
+
+document.getElementById("submit-bisnis").addEventListener("click", (event) => {
+    event.preventDefault();
+    sessionStorage.setItem('submit-event', 'bussinessit');
+    window.location.assign(config.local_frontend_submission);
+});
+
 /* Jumlah event yang diikuti */
 if (countCompetition !== null) {
-    countCompetition = document.getElementById("count-competition").innerHTML = countCompetition;
+    countCompetition = document.getElementById("count-competition").innerHTML = `<p class="h5 font-weight-bold text-gray-800">${countCompetition}</p>`;
 }
 
 if (countEvent !== null) {
-    countEvent = document.getElementById("count-event").innerHTML = countEvent;
+    countEvent = document.getElementById("count-event").innerHTML = `<p class="h5 font-weight-bold text-gray-800">${countEvent}</p>`;
 }
 
 if (countTask !== null) {
-    countTask = document.getElementById("count-task").innerHTML = countTask;
+    countTask = document.getElementById("count-task").innerHTML = `<p class="h5 font-weight-bold text-gray-800">${countTask}</p>`;
 }
 
 /* Status event yang terdaftar */
