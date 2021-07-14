@@ -19,7 +19,7 @@ const logout = async () => {
         // return window.location.replace(config.local_frontend_dashboard);    // TODO: fix href to "ACTUAL" dashboard
     } catch(error) {
         alert("Logout gagal. Silakan hubungi panitia");
-        return [error, window.location.replace(config.local_frontend_terdaftar)];
+        window.location.assign(config.local_frontend_terdaftar);
     }
 }
 

@@ -101,7 +101,7 @@ if (countTask !== null) {
 /* Status event yang terdaftar */
 if (lomba!==null && lomba.length !== 0) {
     if (lomba[0].event_id === 1) {
-        if (lomba[0].status == "inactive") {
+        if (lomba[0].status === "inactive") {
             document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-primary mb-1\">Menunggu pembayaran</span>";
         } else if (lomba[0].status === "paid") {
             document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-warning mb-1\">Menunggu konfirmasi</span>";
@@ -115,7 +115,7 @@ if (lomba!==null && lomba.length !== 0) {
     }
 
     if (lomba[0].event_id === 2) {
-        if (lomba[0].status == "inactive") {
+        if (lomba[0].status === "inactive") {
             document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-primary mb-1\">Menunggu pembayaran</span>";
         } else if (lomba[0].status === "paid") {
             document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-warning mb-1\">Menunggu konfirmasi</span>";
@@ -130,7 +130,7 @@ if (lomba!==null && lomba.length !== 0) {
 
     if (lomba.length === 2) {
         if (lomba[1].event_id === 1) {
-            if (lomba[1].status == "inactive") {
+            if (lomba[1].status === "inactive") {
                 document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-primary mb-1\">Menunggu pembayaran</span>";
             } else if (lomba[1].status === "paid") {
                 document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-warning mb-1\">Menunggu konfirmasi</span>";
@@ -139,12 +139,10 @@ if (lomba!==null && lomba.length !== 0) {
             } else {
                 document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-danger mb-1\">Pembayaran ditolak. Silakan kirim ulang bukti pembayaran</span>";
             }
-        } else {
-            document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-secondary mb-1\">Belum mendaftar</span>";
-        }
+        } // NOTE: check over here!
 
         if (lomba[1].event_id === 2) {
-            if (lomba[1].status == "inactive") {
+            if (lomba[1].status === "inactive") {
                 document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-primary mb-1\">Menunggu pembayaran</span>";
             } else if (lomba[1].status === "paid") {
                 document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-warning mb-1\">Menunggu konfirmasi</span>";
@@ -180,27 +178,27 @@ if (seminar !== null && seminar.length !== 0) {
 if (task.UIUX === null) {
     document.getElementById("task-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-secondary mb-1\">Belum ada tugas</span>";
 } else if (task.UIUX.status === null) {
-    document.getElementById("task-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-secondary mb-1\">Belum ada tugas</span>";
+    document.getElementById("task-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-secondary mb-1\">Belum mengumpulkan tugas</span>";
 } else if (task.UIUX.status.status === "accept") {
     document.getElementById("task-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-success mb-1\">Terkonfirmasi. Silakan menunggu pengumuman</span>";
 } else if (task.UIUX.status.status === "sent") {
     document.getElementById("task-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-warning mb-1\">Menunggu konfirmasi</span>";
 } else if (task.UIUX.status.status === "reject") {
     document.getElementById("task-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-danger mb-1\">Tugas ditolak. Silakan kirim ulang</span>";
-} else {
+} else if (task.UIUX.status.status === "nope"){
     document.getElementById("task-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-secondary mb-1\">Belum mengumpulkan tugas</span>";
 }
 
 if (task.BussinessIT === null) {
     document.getElementById("task-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-secondary mb-1\">Belum ada tugas</span>";
 } else if (task.BussinessIT.status === null) {
-    document.getElementById("task-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-secondary mb-1\">Belum ada tugas</span>";
+    document.getElementById("task-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-secondary mb-1\">Belum mengumpulkan tugas</span>";
 } else if (task.BussinessIT.status.status === "accept") {
     document.getElementById("task-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-success mb-1\">Terkonfirmasi. Silakan menunggu pengumuman</span>";
 } else if (task.BussinessIT.status.status === "sent") {
     document.getElementById("task-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-warning mb-1\">Menunggu konfirmasi</span>";
 } else if (task.BussinessIT.status.status === "reject") {
     document.getElementById("task-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-danger mb-1\">Tugas ditolak. Silakan kirim ulang</span>";
-} else {
+} else if (task.BussinessIT.status.status === "nope"){
     document.getElementById("task-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-secondary mb-1\">Belum mengumpulkan tugas</span>";
 }

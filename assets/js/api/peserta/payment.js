@@ -24,7 +24,7 @@ const payment = async () => {
 
         if (response.data.status === "SUCESS") {
             alert(response.data.message);
-            return window.location.replace(config.local_frontend_terdaftar);
+            window.location.replace(config.local_frontend_terdaftar);
         }
 
         alert(response.data.message);

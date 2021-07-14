@@ -39,7 +39,6 @@ const login = async () => {
 
         if (response.data.status === "SUCCESS") {
             const tokenAnforcom = Cookies.set('token-anforcom', response.data.payload.token);
-            alert("Login berhasil!");
             return [tokenAnforcom, window.location.replace(config.local_frontend_dashboard)];
         }
 
@@ -47,7 +46,7 @@ const login = async () => {
         alert(`${errMessage}. Silakan ulangi kembali!`);
     } catch(error) {
         alert("Login gagal. Silakan ulangi kembali atau hubungi panitia");
-        return [error, window.location.replace(config.local_frontend_login)];
+        window.location.assign(config.local_frontend_login);
     }
 }
 

@@ -17,7 +17,7 @@ const submission = async () => {
     formData.append('file', task.files[0]);
 
     try {
-        const response = await axios.post(`${config.local_upload_submission}/${submitEvent}`, formData, { // TODO: ${event} error, cari tahu konek linknya
+        const response = await axios.post(`${config.local_upload_submission}/${submitEvent}`, formData, {
             headers : {
                 Authorization : `Bearer ${tokenAnforcom}`,
                 'Content-Type' : 'multipart/form-data'
@@ -26,7 +26,7 @@ const submission = async () => {
 
         if (response.data.status === "SUCESS") {
             alert(response.data.message);
-            return window.location.replace(config.local_frontend_terdaftar);
+            window.location.replace(config.local_frontend_terdaftar);
         }
 
         alert(response.data.message);
