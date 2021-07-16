@@ -96,11 +96,15 @@
                                             <li><a href="seminar.html"
                                                     style="font-family: 'Work Sans', sans-serif !important;">Seminar</a>
                                             </li>
-                                            <li><a href="error404.html"
+                                            <li><a href="404.html"
                                                     style="font-family: 'Work Sans', sans-serif !important;">Events</a>
                                             </li>
-                                            <li><a href="login.html"
+                                            <li id="li-show-login-btn"><a href="login.html" id="a-show-login-btn"
                                                     style="font-family: 'Work Sans', sans-serif !important;">Login</a>
+                                            </li>
+                                            <li id="li-show-dashboard-btn">
+                                                <a href="dashboard.html" id="a-show-dashboard-btn"
+                                                    style="font-family: 'Work Sans', sans-serif !important;">Dashboard</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -276,7 +280,7 @@
                             mengembangkan dan menciptakan teknologi yang mendukung kehidupan masyarakat secara daring di
                             masa pandemi serta mempermudah aktivitas masyarakat di masa mendatang..</p>
                     </div>
-                    <a href="error404.html" class="btn wow fadeInUp" data-wow-delay="0.4s"
+                    <a href="404.html" class="btn wow fadeInUp" data-wow-delay="0.4s"
                         style="background: transparent !important; border:#105395 solid 1.4px !important;text-transform: none !important;font-family: 'Work Sans', sans-serif !important;">Pelajari
                         lebih lanjut</a>
                 </div>
@@ -917,6 +921,8 @@
 
 
     <!-- JS here -->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
     <!-- All JS Custom Plugins Link Here here -->
     <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="./assets/js/easing/easing.min.js"></script>
@@ -973,8 +979,24 @@
     <!-- Form validator js -->
     <script src="./assets/js/form-validator.min.js"></script>
 
-
-
+    <script type="module">
+        const tokenAnforcom = await Cookies.get()["token-anforcom"];
+        let dashboardLI = document.getElementById("li-show-dashboard-btn");
+        let dashboardA = document.getElementById("a-show-dashboard-btn");
+        let loginLi = document.getElementById("li-show-login-btn");
+        let loginA = document.getElementById("a-show-login-btn");
+        if (tokenAnforcom !== null) {
+            dashboardLI.style.display = null;
+            dashboardA.style.display = null;
+            loginLi.style.display = 'none';
+            loginA.style.display = 'none';
+        } else {
+            dashboardLI.style.display = 'none';
+            dashboardA.style.display = 'none';
+            loginLi.style.display = null;
+            loginA.style.display = null;
+        }
+    </script>
 
 </body>
 
