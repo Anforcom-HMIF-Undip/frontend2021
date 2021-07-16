@@ -15,7 +15,7 @@ const payment = async () => {
     formData.append('file', bukti.files[0]);
 
     try {
-        const response = await axios.post(`${config.local_upload_transfer}/${bayarEvent}`, formData, { // TODO: ${event} error, cari tahu konek linknya
+        const response = await axios.post(`${config.local_upload_transfer}/${bayarEvent}`, formData, {
             headers : {
                 Authorization : `Bearer ${tokenAnforcom}`,
                 'Content-Type' : 'multipart/form-data'

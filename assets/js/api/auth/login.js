@@ -4,12 +4,12 @@ const validateForm = () => {
     var email = document.getElementById("femail").value;
     var pw1 = document.getElementById("pswd1").value;
 
-    if(email ==""){
+    if(email === ""){
         document.getElementById("emailMsg").innerHTML = "Fill in the email, please!";
         return false;
     }
 
-    if(pw1 == "") {
+    if(pw1 === "") {
         document.getElementById("pw1Msg").innerHTML = "Fill in the password, please!";
         return false;
     }

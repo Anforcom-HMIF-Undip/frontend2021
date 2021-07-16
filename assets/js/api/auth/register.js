@@ -6,7 +6,7 @@ const validateForm = () => {
     var pw1 = document.getElementById("pswd1").value;
     var pw2 = document.getElementById("pswd2").value;
 
-    if(name == "") {
+    if(name === "") {
         document.getElementById("nameMsg").innerHTML = "Fill in the full name, please!";
         return false;
     }
@@ -18,12 +18,12 @@ const validateForm = () => {
         document.getElementById("nameMsg").innerHTML = "";
     }
 
-    if(email ==""){
+    if(email === ""){
         document.getElementById("emailMsg").innerHTML = "Fill in the email, please!";
         return false;
     }
 
-    if(pw1 == "") {
+    if(pw1 === "") {
         document.getElementById("pw1Msg").innerHTML = "Fill in the password, please!";
         return false;
     }
@@ -35,12 +35,12 @@ const validateForm = () => {
         document.getElementById("pw1Msg").innerHTML = "";
     }
 
-    if(pw2 == "") {
+    if(pw2 === "") {
         document.getElementById("pw2Msg").innerHTML = "Enter the password, please!";
         return false;
     }
 
-    if(pw1 != pw2) {
+    if(pw1 !== pw2) {
         document.getElementById("pw2Msg").innerHTML = "Passwords are not the same!";
         return false;
     }else{
