@@ -1,29 +1,23 @@
+import config from "../../config/config.js";
+
 function validateForm() {
     //collect form data in JavaScript variables
     var pw1 = document.getElementById("pswd1").value;
     var pw2 = document.getElementById("pswd2").value;
-    var pw3 = document.getElementById("pswd3").value;
+    var email = document.getElementById("femail").value;
 
     //check empty confirm password field
-    if(pw3 == "") {
-      document.getElementById("pw3Msg").innerHTML = "Enter the password, please!";
+    if(email == "") {
+      document.getElementById("femailMsg").innerHTML = "Enter your email, please!";
       return false;
     }
 
     //minimum and maximum password length validation
-    if(pw3.length < 8) {
-      document.getElementById("pw3Msg").innerHTML = "Password length must be at least 8 characters";
+    if(email.length < 8) {
+      document.getElementById("femailMsg").innerHTML = "Password length must be at least 8 characters";
       return false;
     }else{
-      document.getElementById("pw3Msg").innerHTML = "";
-    }
-
-    //password confirmation
-    if(pw1 == pw3) {
-      document.getElementById("pw1Msg").innerHTML = "Passwords can not be same!";
-      return false;
-    }else{
-      document.getElementById("pw1Msg").innerHTML = "";
+      document.getElementById("femailMsg").innerHTML = "";
     }
 
     //check empty password field
