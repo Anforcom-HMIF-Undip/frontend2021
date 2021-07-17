@@ -115,6 +115,16 @@ a{
     */
 }
 
+@media (max-width: 768px) {
+  .forgot {
+    width: 75% !important;
+  }
+  .change {
+    width: 75% !important;
+    z-index: -1;
+  }
+}
+
 /* navbar */
 .navbar {
   background-color: rgb(0, 0, 0);
