@@ -54,7 +54,8 @@
             <div class="col-12">
               <!-- isi -->
               <h3 class="mt-4 mb-2">Biaya Pendaftaran</h3>
-              <p>UI/UX Competition</p>
+              <p id="nama-event"></p>
+              <p>Rp 100.000</p>
               <!-- <div class="mt-4 mx-2 card col-6">
                 <select class="dropdown mx-3 my-3" tabindex="8" data-settings='{"wrapperClass":"metro"}'>
                   <option value="1">Option 1</option>
@@ -104,7 +105,9 @@
               <div class="card col-12  mx-2 my-3">
                 <div class="px-3 pb-3">
                   <h3 class="mt-4 mb-2">Bukti Pendaftaran</h3>
-                  <p style="font-size: 14px;">Upload Bukti Pembayaran</p>
+                  <p style="font-size: 14px;">Upload Bukti Pembayaran <small>(.png/ .jpg/. jpeg)</small></p>
+                  <p style="font-size: 13px;">format nama file: "Transfer_NamaTim"</p>
+                  <p style="font-size: 13px;">Contoh: "Transfer_LoheeHee"</p>
                   <br> <input style="font-size: 12px" class="form-control-file" type="file" name="leader_ktm" id="upload-payment" required><br>
                 </div>
               </div>
@@ -124,5 +127,13 @@
     <script type="module" src="assets/js/config/config.js"></script>
     <script type="module" src="assets/js/api/auth/logout.js"></script>
     <script type="module" src="assets/js/api/peserta/payment.js"></script>
+    <script type="module">
+      const bayarEvent = sessionStorage.getItem('bayar-event');
+      const namaEvent = document.getElementById("nama-event");
+      console.log(namaEvent)
+      if (bayarEvent === "bussinessit") namaEvent.innerText = "Bussiness IT Case Competition";
+      else if(bayarEvent === "uiux") namaEvent.innerText = "UI/UX Competition";
+      else namaEvent.innerText = "";
+    </script>
   </body>
 </html>

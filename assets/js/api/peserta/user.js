@@ -18,7 +18,7 @@ const user = async () => {
         });
 
         if (response.data.status === "SUCCESS") {
-            userName = response.data.payload[0].user.name;
+            userName = response.data.payload.name;
         }
 
     } catch(error) {
@@ -106,7 +106,7 @@ if (lomba!==null && lomba.length !== 0) {
         } else if (lomba[0].status === "paid") {
             document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-warning mb-1\">Menunggu konfirmasi</span>";
         } else if (lomba[0].status === "active") {
-            document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-success mb-1\">Pendaftaran selesai</span>";
+            document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-success mb-1\">Pembayaran terkonfirmasi</span>";
         } else {
             document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-danger mb-1\">Pembayaran ditolak. Silakan kirim ulang bukti pembayaran</span>";
         }
@@ -120,7 +120,7 @@ if (lomba!==null && lomba.length !== 0) {
         } else if (lomba[0].status === "paid") {
             document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-warning mb-1\">Menunggu konfirmasi</span>";
         } else if (lomba[0].status === "active") {
-            document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-success mb-1\">Pendaftaran selesai</span>";
+            document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-success mb-1\">Pembayaran terkonfirmasi</span>";
         } else {
             document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-danger mb-1\">Pembayaran ditolak. Silakan kirim ulang bukti pembayaran</span>";
         }
@@ -135,7 +135,7 @@ if (lomba!==null && lomba.length !== 0) {
             } else if (lomba[1].status === "paid") {
                 document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-warning mb-1\">Menunggu konfirmasi</span>";
             } else if (lomba[1].status === "active") {
-                document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-success mb-1\">Pendaftaran selesai</span>";
+                document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-success mb-1\">Pembayaran terkonfirmasi</span>";
             } else {
                 document.getElementById("status-uiux").innerHTML = "<span class=\"text-xs font-weight-bold text-danger mb-1\">Pembayaran ditolak. Silakan kirim ulang bukti pembayaran</span>";
             }
@@ -147,7 +147,7 @@ if (lomba!==null && lomba.length !== 0) {
             } else if (lomba[1].status === "paid") {
                 document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-warning mb-1\">Menunggu konfirmasi</span>";
             } else if (lomba[1].status === "active") {
-                document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-success mb-1\">Pendaftaran selesai</span>";
+                document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-success mb-1\">Pembayaran terkonfirmasi</span>";
             } else {
                 document.getElementById("status-bisnis").innerHTML = "<span class=\"text-xs font-weight-bold text-danger mb-1\">Pembayaran ditolak. Silakan kirim ulang bukti pembayaran</span>";
             }
@@ -166,7 +166,7 @@ if (seminar !== null && seminar.length !== 0) {
     } else if (seminar[0].status === "paid") {
         document.getElementById("status-seminar").innerHTML = "<span class=\"text-xs font-weight-bold text-warning mb-1\">Menunggu konfirmasi</span>";
     } else if (seminar[0].status === "active") {
-        document.getElementById("status-seminar").innerHTML = "<span class=\"text-xs font-weight-bold text-success mb-1\">Pendaftaran selesai</span>";
+        document.getElementById("status-seminar").innerHTML = "<span class=\"text-xs font-weight-bold text-success mb-1\">Pembayaran terkonfirmasi</span>";
     } else {
         document.getElementById("status-seminar").innerHTML = "<span class=\"text-xs font-weight-bold text-danger mb-1\">Pembayaran ditolak. Silakan kirim ulang bukti pembayaran</span>";
     }

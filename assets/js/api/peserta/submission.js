@@ -26,7 +26,7 @@ const submission = async () => {
 
         if (response.data.status === "SUCESS") {
             alert(response.data.message);
-            window.location.replace(config.local_frontend_terdaftar);
+            return window.location.href = "terdaftar.html";
         }
 
         alert(response.data.message);
@@ -45,8 +45,8 @@ const user = async () => {
         });
 
         if (response.data.status === "SUCCESS") {
-            userName = response.data.payload[0].user.name;
-            teamName = response.data.payload[0].name;
+            userName = response.data.payload.name;
+            teamName = null;    // TODO: nama tim atur lagi
             document.getElementById("team-lead-submission").innerHTML = userName;
             document.getElementById("team-name-submission").innerHTML = teamName;
         }

@@ -24,7 +24,7 @@ const payment = async () => {
 
         if (response.data.status === "SUCESS") {
             alert(response.data.message);
-            window.location.replace(config.local_frontend_terdaftar);
+            return window.location.href = "terdaftar.html";
         }
 
         alert(response.data.message);
