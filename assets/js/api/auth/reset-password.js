@@ -1,4 +1,3 @@
-import config from "../../config/config.js";
 
 const params = new URLSearchParams(window.location.search);
 const resetToken = params.get("token");
@@ -53,12 +52,12 @@ const resetPassword = async () => {
     };
 
     try {
-        const response = await axios.post(config.local_reset_password, data);
+        const response = await axios.post("https://asw.masuk.id/anforv1/api/auth/reset-password", data);
         axios.defaults.headers.post['X-CSRF-Token'] = response.data._csrf;
 
         if (response.data.status === "SUCCESS") {
             alert(response.data.message);
-            return window.location.replace(config.local_frontend_login);
+            return window.location.replace("https://anforcom.com/public/login.html");
         }
 
         alert(response.data.message);

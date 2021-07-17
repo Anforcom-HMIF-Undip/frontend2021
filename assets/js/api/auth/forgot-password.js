@@ -1,4 +1,3 @@
-import config from "../../config/config.js";
 
 const validateForm = () => {
     let email = document.getElementById("femail").value;
@@ -18,7 +17,7 @@ const forgotPassword = async () => {
     };
 
     try {
-        const response = await axios.post(config.local_forgot_password, data);
+        const response = await axios.post("https://asw.masuk.id/anforv1/api/auth/forgot-password", data);
         axios.defaults.headers.post['X-CSRF-Token'] = response.data._csrf;
 
         if (response.data.status === "SUCCESS") {
@@ -35,6 +34,6 @@ const forgotPassword = async () => {
 
 document.getElementById("forgot-password-btn").addEventListener("click", (event) => {
     event.preventDefault();
-    const isCorrect = validateForm();
-    if (isCorrect) forgotPassword()
+    let isCorrect = validateForm();
+    if (isCorrect) forgotPassword();
 });
