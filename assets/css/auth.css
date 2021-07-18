@@ -119,9 +119,17 @@ a{
   .forgot {
     width: 75% !important;
   }
+}
+
+@media (min-width: 280px) and (max-width: 425px){
+  .change {
+    width: 60% !important;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px){
   .change {
     width: 75% !important;
-    z-index: -1;
   }
 }
 
