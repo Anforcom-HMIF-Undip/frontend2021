@@ -1,21 +1,21 @@
 const timelineBusiness = [
   { day: "15", month: "Juli", description: "Pembukaan Pendaftaran" },
-  { day: "3", month: "September", description: "Penutupan Pendaftaran" },
-  { day: "3", month: "September", description: "Pengumpulan Proposal" },
+  { day: "27", month: "Agustus", description: "Penutupan Pendaftaran" },
+  { day: "3", month: "September", description: "Deadline Pengumpulan Proposal dan Video" },
   { day: "10", month: "September", description: "Pengumuman Finalis" },
   { day: "11", month: "September", description: "Technical Meeting" },
-  { day: "19", month: "September", description: "Presentasi Lomba (Final)" },
-  { day: "25", month: "September", description: "Closing dan Seminar" },
+  { day: "19", month: "September", description: "Presentasi Babak Final" },
+  { day: "25", month: "September", description: "Pengumuman Juara, Closing, dan Seminar" },
 ];
 
 const timelineUI = [
   { day: "15", month: "Juli", description: "Pembukaan Pendaftaran" },
-  { day: "3", month: "September", description: "Penutupan Pendaftaran" },
-  { day: "3", month: "September", description: "Pengumpulan Proposal" },
+  { day: "27", month: "Agustus", description: "Penutupan Pendaftaran" },
+  { day: "3", month: "September", description: "Deadline Pengumpulan Proposal dan Video " },
   { day: "10", month: "September", description: "Pengumuman Finalis" },
   { day: "11", month: "September", description: "Technical Meeting" },
-  { day: "18", month: "September", description: "Presentasi Lomba (Final)" },
-  { day: "25", month: "September", description: "Closing dan Seminar" },
+  { day: "18", month: "September", description: "Presentasi Babak Final" },
+  { day: "25", month: "September", description: "Pengumuman Juara, Closing, dan Seminar" },
 ];
 
 const timelineSeminar = [
