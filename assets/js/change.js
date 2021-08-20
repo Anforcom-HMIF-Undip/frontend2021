@@ -1,5 +1,3 @@
-import config from "../../config/config.js";
-
 function validateForm() {
     //collect form data in JavaScript variables
     var pw1 = document.getElementById("pswd1").value;

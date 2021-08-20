@@ -4,6 +4,8 @@ const tokenAnforcom = await Cookies.get()["token-anforcom"];
 const submitEvent = sessionStorage.getItem('submit-event');
 let userName = null;
 let teamName = null;
+const preloader = document.getElementById('preloader-active');
+preloader.style.display = 'none';
 
 const submission = async () => {
     const task = document.getElementById("upload-task");
@@ -17,6 +19,7 @@ const submission = async () => {
     formData.append('file', task.files[0]);
 
     try {
+        preloader.style.display = 'block';
         const response = await axios.post(`${config.local_upload_submission}/${submitEvent}`, formData, {
             headers : {
                 Authorization : `Bearer ${tokenAnforcom}`,
@@ -25,14 +28,17 @@ const submission = async () => {
         });
 
         if (response.data.status === "SUCESS") {
+            preloader.style.display = 'none';
             alert(response.data.message);
-            return window.location.href = "terdaftar.html";
+            window.location.href = "terdaftar.html";
         }
 
+        preloader.style.display = 'none';
         alert(response.data.message);
     } catch(error) {
+        preloader.style.display = 'none';
         alert("Gagal mengirim submission. Silakan hubungi panitia");
-        return window.location.href = "submission.html";
+        window.location.href = "submission.html";
     }
 };
 
@@ -46,7 +52,7 @@ const user = async () => {
 
         if (response.data.status === "SUCCESS") {
             userName = response.data.payload.name;
-            teamName = null;    // TODO: nama tim atur lagi
+            teamName = null; 
             document.getElementById("team-lead-submission").innerHTML = userName;
             document.getElementById("team-name-submission").innerHTML = teamName;
         }

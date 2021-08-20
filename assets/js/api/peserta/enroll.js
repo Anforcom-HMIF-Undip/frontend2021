@@ -2,6 +2,8 @@ import config from "../../config/config.js";
 
 const tokenAnforcom = Cookies.get()["token-anforcom"];
 const event = sessionStorage.getItem('event');
+const preloader = document.getElementById('preloader-active');
+preloader.style.display = 'none';
 
 if (event === 'uiux') {
     document.getElementById("event-name").innerHTML = "UI/UX Competition";
@@ -61,6 +63,7 @@ const enroll = async () => {
     }
 
     try {
+        preloader.style.display = 'block';
         const response = await axios.post(`${config.local_enroll_lomba}/${event}`, formData, {
             headers : {
                 Authorization : `Bearer ${tokenAnforcom}`,
@@ -69,12 +72,15 @@ const enroll = async () => {
         });
 
         if (response.data.status === "SUCCESS") {
-            alert(response.data.message);
+            preloader.style.display = 'none';
+            alert("Berhasil mendaftar lomba!");
             return window.location.replace(config.local_frontend_terdaftar);
         }
 
         alert(response.data.message);
+        preloader.style.display = 'none';
     } catch(error) {
+        preloader.style.display = 'none';
         alert("Gagal mendaftar event. Silakan ulangi kembali atau hubungi panitia");
         window.location.href = "leader-info.html";
     }

@@ -10,6 +10,7 @@
 
     <!-- style CSS -->
     <link href="assets/css/dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     <!--Fontawesome CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
@@ -23,6 +24,18 @@
     <title>Dashboard</title>
   </head>
   <body>
+<!-- Preloader Start -->
+  <div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+      <div class="preloader-inner position-relative">
+        <div class="preloader-circle"></div>
+        <div class="preloader-img pere-text">
+          <img src="./assets/img/av.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Preloader End -->
     <!-- Dashboard Utama START -->
     <section class="sidebar d-lg-flex" id="wrapper">
       <!-- sidebar-->
@@ -56,10 +69,10 @@
               <h3 class="mt-4 mb-2">Pengumpulan Tugas</h3>
               <p id="submit-event-submission"></p>
               <div class="mt-4 mx-2 card col-12">
-                <h3 style="font-size: 18px" class="pt-3 px-3">Nama Team</h3>
+                <!--<h3 style="font-size: 18px" class="pt-3 px-3">Nama Team</h3>-->
                 <p class="px-3" id="team-name-submission"></p>
-                <hr>
-                <h3 style="font-size: 18px" class="px-3">Nama Ketua</h3>
+                <!--<hr>-->
+                <!--<h3 style="font-size: 18px" class="px-3">Nama Ketua</h3>-->
                 <p class="pb-3 px-3" id="team-lead-submission"></p>
               </div>
               <div class="card col-12  mx-2 my-3">
@@ -72,8 +85,7 @@
                   <br> <input style="font-size: 12px" class="form-control-file" type="file" name="leader_ktm" id="upload-task" required><br>
                 </div>
               </div>
-              <ul class="mx-2 mt-4">
-                <li><a class="main-btn daftar" href="#" id="upload-btn">Submit</a></li></ul>
+              <ul class="mx-2 mt-4"><li><a class="main-btn daftar" href="#" id="upload-btn">Submit</a></li></ul>
               <!-- isi -->
             </div>
           </div>

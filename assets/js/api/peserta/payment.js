@@ -2,6 +2,8 @@ import config from "../../config/config.js";
 
 const tokenAnforcom = await Cookies.get()["token-anforcom"];
 const bayarEvent = sessionStorage.getItem('bayar-event');
+const preloader = document.getElementById('preloader-active');
+preloader.style.display = 'none';
 
 const payment = async () => {
     const bukti = document.getElementById("upload-payment");
@@ -15,6 +17,7 @@ const payment = async () => {
     formData.append('file', bukti.files[0]);
 
     try {
+        preloader.style.display = 'block';
         const response = await axios.post(`${config.local_upload_transfer}/${bayarEvent}`, formData, {
             headers : {
                 Authorization : `Bearer ${tokenAnforcom}`,
@@ -23,14 +26,17 @@ const payment = async () => {
         });
 
         if (response.data.status === "SUCESS") {
+            preloader.style.display = 'none';
             alert(response.data.message);
-            return window.location.href = "terdaftar.html";
+            window.location.href = "terdaftar.html";
         }
 
+        preloader.style.display = 'none';
         alert(response.data.message);
     } catch(error) {
+        preloader.style.display = 'none';
         alert("Gagal mengirim bukti transfer. Silakan hubungi panitia");
-        return window.location.href = "pembayaran.html";
+        window.location.href = "pembayaran.html";
     }
 };
 

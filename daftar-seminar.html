@@ -10,6 +10,7 @@
 
     <!-- style CSS -->
     <link href="./assets/css/dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     <!--Fontawesome CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
@@ -18,11 +19,24 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="manifest" href="/site.webmanifest">    
 
     <title>Dashboard</title>
+
   </head>
   <body class="overflow-hidden">
+    <!-- Preloader Start -->
+  <div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+      <div class="preloader-inner position-relative">
+        <div class="preloader-circle"></div>
+        <div class="preloader-img pere-text">
+          <img src="./assets/img/av.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Preloader End -->
        <!-- Dashboard Utama START -->
     <section class="sidebar d-lg-flex" id="wrapper">
       <!-- sidebar-->
@@ -39,7 +53,7 @@
               <li class="nav-item px-4"><a class="main-btn rounded-two" href="timeline.html"><img class="pe-4 icons" src="assets/images/calender.png" alt="timeline">Timeline</a></li>
               <li class="nav-item px-4"><a class="main-btn rounded-two" href="http://anforcom.com"><img class="pe-3 icons" src="assets/images/globe.png" alt="main">Anforcom</a></li>
               <li class="garis d-md-none d-lg-block"><hr></li>
-              <li class="nav-item px-4"><a class="main-btn rounded-two" href="http://anforcom.com"><img class="pe-3 icons" src="assets/images/exit.png" alt="logout">  Logout</a></li>
+              <li class="nav-item px-4"><a class="main-btn rounded-two" href="http://anforcom.com" id="logout-btn"><img class="pe-3 icons" src="assets/images/exit.png" alt="logout">  Logout</a></li>
             </ul>
           </div>
           <p class="d-none d-lg-block copyright">&copy Anforcom 2021</p>
@@ -64,11 +78,12 @@
                           <i style="font-size: 12px;" class="fa fa-user-plus"></i>
                         </span>
                       </div>
-                      <input required class="ms-2 form-control" style="font-size: 14px; height: 32px; border-radius: 5px" id="name" type="text" name="name" placeholder="Nama Lengkap*" value="">
+                      <input required class="ms-2 form-control" style="font-size: 14px; height: 32px; border-radius: 5px" id="name" type="text" name="name" placeholder="Nama Lengkap *" value="">
                     </div>
+                    <p style="font-size: 12px;">*Pastikan nama benar dan lengkap karena akan digunakan untuk nama pada sertifikat</p>
                   </div>
 
-                  <div class="mt-3">
+                  <!-- <div class="mt-3">
                     <div class="input-group">
                       <div class="input-group-prepend  my-auto">
                         <span class="input-group-text">
@@ -78,20 +93,20 @@
                       <input required class="ms-2 form-control" style="font-size: 14px; height: 32px; border-radius: 5px" id="email" type="email" name="email" placeholder="Email*" value="">
                     </div>
                     <p style="font-size: 12px;">Menggunakan email yang terdaftar di platform zoom</p>
-                  </div>
+                  </div> -->
 
                   <div class="mt-3">
                     <div class="input-group">
-                      <div class="input-group-prepend  my-auto">
+                      <div class="input-group-prepend mt-1">
                         <span class="input-group-text">
-                          <i style="font-size: 12px;" class="fa fa-university"></i>
+                          <i class="fa fa-phone"></i>
                         </span>
                       </div>
-                      <input class="ms-2 form-control" style="font-size: 14px; height: 32px; border-radius: 5px" id="univ" type="text" name="university" placeholder="Instansi*" value="" required>
+                      <input class="ms-2 form-control" style="font-size: 14px; height: 32px; border-radius: 5px" id="hp" type="text" name="hp" placeholder="Nomor HP (0812345613)" value="">
                     </div>
                   </div>
 
-                  <div class="mt-3">
+                  <!-- <div class="mt-3">
                     <label for="tanggal-lahir">Tanggal Lahir*</label>
                     <div class="input-group">
                       <div class="input-group-prepend  my-auto">
@@ -101,18 +116,27 @@
                       </div>
                       <input required class="ms-2 form-control" style="font-size: 14px; height: 32px; border-radius: 5px" id="tanggal-lahir" type="date" name="tanggal-lahir" placeholder="Tanggal Lahir" value="">
                     </div>
-                  </div>
-                  <button class ="mt-4 main-btn daftar" type="submit" >Daftar Sekarang</button>
-              <!-- isi -->
-
-            </div>
+                  </div> -->
+                </form>
+                <!-- isi -->
+                
+              </div>
+              <ul class="mx-2 mt-4">
+                <li><a class="main-btn daftar" href="datar-seminar.html" id="daftar-btn">Daftar Sekarang</a></li>
+              </ul>
           </div>
         </div>
       </div>
+     </div>
     </section>
     <!-- Dashboard Utama END -->
 
     <!-- JS Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="https://unpkg.com/axios@0.21.1/dist/axios.min.js"></script>
+    <script type="module" src="assets/js/config/config.js"></script>
+    <script type="module" src="assets/js/api/auth/logout.js"></script>
+    <script type="module" src="assets/js/api/peserta/enrollSeminar.js"></script>
   </body>
 </html>

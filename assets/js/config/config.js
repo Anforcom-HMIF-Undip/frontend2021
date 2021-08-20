@@ -4,12 +4,11 @@
  */
 
 const local_api = "http://127.0.0.1:8000/api";
-const deploy_api = "https://anforcom.com/api";
+const deploy_api = "https://asw.masuk.id/ppp/api";
 const local_frontend = "http://127.0.0.1:5500";
 const deploy_frontend = "https://cobaanforcom21.netlify.app";
-const homepage = "https://anforcom.com";
 
-const config = {
+var config = {
     "local_api" : `${local_api}`,
     "local_login" : `${local_api}/auth/login`,
     "local_register" : `${local_api}/auth/register`,
@@ -19,6 +18,7 @@ const config = {
     "local_user" : `${local_api}/dashboard/me`,
     "local_events" : `${local_api}/dashboard/events`,
     "local_enroll_lomba": `${local_api}/dashboard/register`,
+    "local_enroll_seminar": `${local_api}/dashboard/register/seminar`,
     "local_upload_transfer": `${local_api}/dashboard/transfer`,
     "local_upload_submission": `${local_api}/dashboard/submission`,
 

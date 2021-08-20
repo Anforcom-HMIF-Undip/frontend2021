@@ -17,7 +17,7 @@ const forgotPassword = async () => {
     };
 
     try {
-        const response = await axios.post("https://asw.masuk.id/anforv1/api/auth/forgot-password", data);
+        const response = await axios.post("https://asw.masuk.id/ppp/api/auth/forgot-password", data);
         axios.defaults.headers.post['X-CSRF-Token'] = response.data._csrf;
 
         if (response.data.status === "SUCCESS") {
